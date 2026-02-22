@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>William Ortiz Online Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="css/bgcss.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+</head>
+<body>
+    <div class="container-xl m3-shell">
+        <div class="row flex-lg-row-reverse align-items-center m3-surface">
+            <nav class="navbar navbar-light m3-topbar">
+                <a class="navbar-brand fw-semibold ms-3" href="index.html">Portfolio</a>
+                <ul class="navbar-nav d-flex flex-row">
+                </ul>
+            </nav>
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="william.png" class="d-block mx-lg-auto img-fluid" alt="William Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <p class="m3-overline mb-2">UI/UX + Front-End + Digital Production</p>
+                <h1 class="display-6 fw-bold lh-1 mb-3">I’m William, an AI Design & Production Specialist focused on UI/UX and front-end execution.</h1>
+                <p class="lead">I’m a senior digital professional with experience in product design, web development, digital production, and print. I deliver end-to-end work—from strategy and interface design to production-ready assets—and use generative AI tools like Imagen 4, Gemini, Nano Banana, loraAi, and ComfyUI to accelerate concepting and improve creative output.</p>
+            </div>
+            <div class="container text-center mt-5 mb-3 m3-card-grid">
+                <div class="projects-header">
+                    <div class="text-start">
+                        <p class="m3-overline mb-1">Selected Work</p>
+                        <h2 class="h4 m3-section-title mb-0">Project Highlights</h2>
+                    </div>
+                    <label class="projects-filter-wrap" for="projectCategoryFilter">
+                        Filter by section
+                        <select id="projectCategoryFilter" class="projects-filter">
+                            <option value="all">All Sections</option>
+                            <option value="digital">Digital Product Redesigns</option>
+                            <option value="campaign">Campaign Layout & Production</option>
+                            <option value="ai">AI Concept & Visual Exploration</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div id="projectGrid" class="project-grid">
+                    <article class="card m3-card project-item" data-category="digital">
+                        <div class="card-body">
+                            <p class="card-kicker">Digital Product Redesigns</p>
+                            <h5 class="card-title">Healthcare Experience Refresh</h5>
+                            <p class="card-text">Responsive UX refinements focused on clearer navigation and faster user task completion.</p>
+                            <div class="project-meta">
+                                <span class="project-pill">Role: UI/UX + Front-End</span>
+                                <span class="project-pill">Focus: Usability</span>
+                            </div>
+                            <a href="Digital.html" class="btn m3-btn" target="_blank">View Project</a>
+                        </div>
+                    </article>
+
+                    <article class="card m3-card project-item" data-category="campaign">
+                        <div class="card-body">
+                            <p class="card-kicker">Campaign Layout & Production</p>
+                            <h5 class="card-title">Multi-Channel Print Campaign</h5>
+                            <p class="card-text">Designed and produced campaign layouts with production-ready mechanicals for deployment.</p>
+                            <div class="project-meta">
+                                <span class="project-pill">Role: Design + Production</span>
+                                <span class="project-pill">Focus: Accuracy</span>
+                            </div>
+                            <a href="Print.html" class="btn m3-btn" target="_blank">View Project</a>
+                        </div>
+                    </article>
+
+                    <article class="card m3-card project-item" data-category="ai">
+                        <div class="card-body">
+                            <p class="card-kicker">AI Concept & Visual Exploration</p>
+                            <h5 class="card-title">Generative Art Direction Study</h5>
+                            <p class="card-text">Built exploratory visuals across models to accelerate concepting and style alignment.</p>
+                            <div class="project-meta">
+                                <span class="project-pill">Tools: Gemini + ComfyUI</span>
+                                <span class="project-pill">Focus: Rapid Ideation</span>
+                            </div>
+                            <a href="Art.html" class="btn m3-btn" target="_blank">View Project</a>
+                        </div>
+                    </article>
+
+                    <article class="card m3-card project-item" data-category="digital">
+                        <div class="card-body">
+                            <p class="card-kicker">Digital Product Redesigns</p>
+                            <h5 class="card-title">Responsive Product Journey</h5>
+                            <p class="card-text">Improved mobile-first content hierarchy and interaction clarity for complex flows.</p>
+                            <div class="project-meta">
+                                <span class="project-pill">Role: UX + Production</span>
+                                <span class="project-pill">Output: Scalable interface patterns</span>
+                            </div>
+                            <a href="Digital.html" class="btn m3-btn" target="_blank">View Project</a>
+                        </div>
+                    </article>
+
+                    <article class="card m3-card project-item" data-category="campaign">
+                        <div class="card-body">
+                            <p class="card-kicker">Campaign Layout & Production</p>
+                            <h5 class="card-title">Brand System Rollout Assets</h5>
+                            <p class="card-text">Created print-ready collateral sets with consistent brand hierarchy and fast handoff.</p>
+                            <div class="project-meta">
+                                <span class="project-pill">Role: Visual Design</span>
+                                <span class="project-pill">Output: Ready-to-print files</span>
+                            </div>
+                            <a href="Print.html" class="btn m3-btn" target="_blank">View Project</a>
+                        </div>
+                    </article>
+
+                    <article class="card m3-card project-item" data-category="ai">
+                        <div class="card-body">
+                            <p class="card-kicker">AI Concept & Visual Exploration</p>
+                            <h5 class="card-title">Prompt-Based Concept Library</h5>
+                            <p class="card-text">Generated curated concept sets to test visual styles and creative direction quickly.</p>
+                            <div class="project-meta">
+                                <span class="project-pill">Tools: Imagen + loraAi</span>
+                                <span class="project-pill">Focus: Creative acceleration</span>
+                            </div>
+                            <a href="Art.html" class="btn m3-btn" target="_blank">View Project</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <footer id="siteFooterContact" class="portfolio-footer">
+                <div class="footer-top">
+                    <div>
+                        <p class="m3-overline mb-1">Contact</p>
+                        <h3 class="contact-title">Interested in working together?</h3>
+                        <p id="contactSubtitle" class="contact-subtitle" aria-live="polite"></p>
+                    </div>
+                    <button id="contactCta" class="btn m3-btn-secondary" type="button" aria-expanded="false" aria-controls="contactAccordion">Open Contact Form</button>
+                </div>
+
+                <section id="contactAccordion" class="contact-accordion" aria-hidden="true">
+                    <form id="heroContactForm" class="contact-form" method="post" action="https://api.web3forms.com/submit">
+                        <input type="hidden" name="access_key" value="6b83bd7b-80bd-44e7-886e-ee15377e05a1">
+                        <input type="hidden" name="subject" value="New portfolio contact submission">
+                        <input type="hidden" name="from_name" value="Portfolio Contact Form">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        <div class="contact-grid">
+                            <label>
+                                Name
+                                <input type="text" id="contactName" name="name" required>
+                            </label>
+                            <label>
+                                Email
+                                <input type="email" id="contactEmail" name="email" required>
+                            </label>
+                        </div>
+                        <label>
+                            Company
+                            <input type="text" id="contactCompany" name="company" placeholder="Company or team name">
+                        </label>
+                        <label>
+                            Message
+                            <textarea id="contactMessage" name="message" rows="4" placeholder="Tell me about the role, timeline, and what you’re looking for." required></textarea>
+                        </label>
+                        <button class="btn m3-btn" type="submit">Send Message</button>
+                        <p id="contactStatus" class="contact-status" aria-live="polite"></p>
+                    </form>
+                </section>
+            </footer>
+        </div>
+    </div>
+
+    <button class="assistant-launcher" id="assistantLauncher" aria-label="Open recruiter assistant" type="button">
+        Ask William AI
+    </button>
+
+    <section class="assistant-panel" id="assistantPanel" aria-label="Recruiter Assistant" aria-hidden="true">
+        <header class="assistant-header">
+            <div>
+                <h2>Recruiter Assistant</h2>
+                <p>Quick answers to common hiring questions.</p>
+            </div>
+            <button class="assistant-close" id="assistantClose" aria-label="Close assistant" type="button">×</button>
+        </header>
+
+        <div class="assistant-quick" id="assistantQuick"></div>
+
+        <div class="assistant-messages" id="assistantMessages" role="log" aria-live="polite"></div>
+
+        <form class="assistant-form" id="assistantForm">
+            <input
+                class="assistant-input"
+                id="assistantInput"
+                type="text"
+                placeholder="Ask about availability, stack, process..."
+                autocomplete="off"
+            >
+            <button class="assistant-send" type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="js/recruiter-assistant.js"></script>
+    <script src="js/contact-accordion.js"></script>
+    <script src="js/project-filter.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
