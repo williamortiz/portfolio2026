@@ -205,6 +205,26 @@ function buildProjectCard(project) {
   `;
 }
 
+function updateFilterOptionCounts() {
+  if (!projectFilter) {
+    return;
+  }
+
+  const totalProjects = projectCatalog.length;
+
+  Array.from(projectFilter.options).forEach((option) => {
+    const baseLabel = option.dataset.baseLabel || option.textContent.replace(/\s*\(\d+\)\s*$/, '').trim();
+    option.dataset.baseLabel = baseLabel;
+
+    const count =
+      option.value === 'all'
+        ? totalProjects
+        : projectCatalog.filter((project) => project.category === option.value).length;
+
+    option.textContent = `${baseLabel} (${count})`;
+  });
+}
+
 function renderProjects(category) {
   if (!projectGrid) {
     return;
@@ -223,5 +243,6 @@ if (projectFilter && projectGrid) {
     renderProjects(event.target.value);
   });
 
+  updateFilterOptionCounts();
   renderProjects(projectFilter.value);
 }
