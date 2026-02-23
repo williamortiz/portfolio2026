@@ -1,3 +1,5 @@
+import { RippleButton } from './RippleButton';
+
 export default function App() {
   const projects = [
     {
