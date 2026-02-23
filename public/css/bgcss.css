@@ -73,8 +73,8 @@ body {
 .m3-shell {
 	max-width: 1180px;
 	min-height: 100vh;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 14px;
+	padding-bottom: 18px;
 }
 
 .m3-surface {
@@ -90,7 +90,7 @@ body {
 }
 
 .m3-topbar {
-	padding: 0.55rem 0.35rem;
+	padding: 0.22rem 0.18rem;
 }
 
 .navbar-brand {
