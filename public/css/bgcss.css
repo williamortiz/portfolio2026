@@ -1,3 +1,40 @@
+.assistant-launcher.pulse {
+	animation: pulse 1.6s cubic-bezier(.4,0,.2,1) infinite;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(103,80,164,0.18);
+		transform: scale(1);
+	}
+	60% {
+		box-shadow: 0 0 0 12px rgba(103,80,164,0.09);
+		transform: scale(1.045);
+	}
+	100% {
+		box-shadow: 0 0 0 0 rgba(103,80,164,0.18);
+		transform: scale(1);
+	}
+}
+/* Project filter card transitions */
+.project-item {
+	opacity: 1;
+	transform: translateY(0);
+	transition: opacity 0.45s cubic-bezier(.4,0,.2,1), transform 0.45s cubic-bezier(.4,0,.2,1);
+}
+.project-item.filter-exit {
+	opacity: 0;
+	transform: translateY(32px);
+	pointer-events: none;
+}
+.project-item.filter-enter {
+	opacity: 0;
+	transform: translateY(-32px);
+}
+.project-item.filter-enter-active {
+	opacity: 1;
+	transform: translateY(0);
+}
 :root {
 	--m3-primary: #6750a4;
 	--m3-on-primary: #ffffff;

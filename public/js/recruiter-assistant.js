@@ -12,6 +12,7 @@ const defaultKnowledgeBase = {
 let knowledgeBase = defaultKnowledgeBase;
 
 const launcher = document.getElementById('assistantLauncher');
+let pulseTimeout;
 const panel = document.getElementById('assistantPanel');
 const closeButton = document.getElementById('assistantClose');
 const quickContainer = document.getElementById('assistantQuick');
@@ -59,10 +60,17 @@ function ask(question) {
   }, 220);
 }
 
+
+function removePulse() {
+  launcher.classList.remove('pulse');
+  clearTimeout(pulseTimeout);
+}
+
 function openPanel() {
   panel.classList.add('open');
   panel.setAttribute('aria-hidden', 'false');
   input.focus();
+  removePulse();
 }
 
 function closePanel() {
@@ -113,8 +121,24 @@ form.addEventListener('submit', (event) => {
 });
 
 launcher.addEventListener('click', openPanel);
+launcher.addEventListener('mouseenter', removePulse);
 closeButton.addEventListener('click', closePanel);
+
+
+function startPulseIdle() {
+  removePulse();
+  pulseTimeout = setTimeout(() => {
+    launcher.classList.add('pulse');
+  }, 8000);
+}
 
 loadKnowledgeBase().then(() => {
   addMessage(knowledgeBase.welcomeMessage, 'assistant');
+  startPulseIdle();
+});
+
+// Restart pulse idle timer on user interaction
+[launcher, panel, document].forEach(el => {
+  el && el.addEventListener('mousemove', startPulseIdle, { passive: true });
+  el && el.addEventListener('keydown', startPulseIdle, { passive: true });
 });

@@ -225,24 +225,41 @@ function updateFilterOptionCounts() {
   });
 }
 
-function renderProjects(category) {
-  if (!projectGrid) {
-    return;
-  }
 
-  const filtered =
-    category === 'all'
-      ? projectCatalog
-      : projectCatalog.filter((project) => project.category === category);
-
-  projectGrid.innerHTML = filtered.map(buildProjectCard).join('');
+function animateProjectFilter(category) {
+  if (!projectGrid) return;
+  const cards = Array.from(projectGrid.children);
+  // Fade/move out old cards
+  cards.forEach(card => {
+    card.classList.add('filter-exit');
+  });
+  // After transition, swap content and fade/move in
+  setTimeout(() => {
+    const filtered =
+      category === 'all'
+        ? projectCatalog
+        : projectCatalog.filter((project) => project.category === category);
+    projectGrid.innerHTML = filtered.map(buildProjectCard).join('');
+    // Animate in
+    const newCards = Array.from(projectGrid.children);
+    newCards.forEach(card => {
+      card.classList.add('filter-enter');
+      // Force reflow for transition
+      void card.offsetWidth;
+      card.classList.add('filter-enter-active');
+      setTimeout(() => {
+        card.classList.remove('filter-enter', 'filter-enter-active');
+      }, 450);
+    });
+  }, 350);
 }
 
 if (projectFilter && projectGrid) {
   projectFilter.addEventListener('change', (event) => {
-    renderProjects(event.target.value);
+    animateProjectFilter(event.target.value);
   });
 
   updateFilterOptionCounts();
-  renderProjects(projectFilter.value);
+  // Initial render with animation
+  animateProjectFilter(projectFilter.value);
 }

@@ -1,4 +1,6 @@
+
 import { RippleButton } from './RippleButton';
+import { useScrollReveal } from './useScrollReveal';
 
 export default function App() {
   const projects = [
@@ -22,9 +24,10 @@ export default function App() {
     },
   ];
 
+  const heroRef = useScrollReveal();
   return (
     <main className="page">
-      <section className="hero">
+      <section className="hero reveal" ref={heroRef}>
         <p className="eyebrow">William Ortiz</p>
         <h1>Portfolio 2026</h1>
         <p className="subtitle">
@@ -38,15 +41,18 @@ export default function App() {
       <section className="section">
         <h2>Featured Categories</h2>
         <div className="grid">
-          {projects.map((project) => (
-            <article className="card" key={project.title}>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-                  <RippleButton className="button" onClick={() => window.location.href = project.href}>
-                    Open {project.type}
-                  </RippleButton>
-            </article>
-          ))}
+          {projects.map((project) => {
+            const cardRef = useScrollReveal();
+            return (
+              <article className="card reveal" ref={cardRef} key={project.title}>
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                <RippleButton className="button" onClick={() => window.location.href = project.href}>
+                  Open {project.type}
+                </RippleButton>
+              </article>
+            );
+          })}
         </div>
       </section>
     </main>
