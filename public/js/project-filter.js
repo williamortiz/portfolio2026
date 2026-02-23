@@ -257,9 +257,44 @@ function animateProjectFilter(category) {
 if (projectFilter && projectGrid) {
   projectFilter.addEventListener('change', (event) => {
     animateProjectFilter(event.target.value);
+    setTimeout(() => {
+      autoScrollCards();
+    }, 600);
   });
 
   updateFilterOptionCounts();
   // Initial render with animation
   animateProjectFilter(projectFilter.value);
+  setTimeout(() => {
+    autoScrollCards();
+  }, 600);
+}
+
+function autoScrollCards() {
+  if (!projectGrid) return;
+  projectGrid.scrollTop = 0;
+  const maxScroll = projectGrid.scrollHeight - projectGrid.clientHeight;
+  if (maxScroll > 32) {
+    let scrollPos = 0;
+    const step = 0.25;
+    let scrolling = true;
+    function scrollStep() {
+      if (!scrolling) return;
+      scrollPos += step;
+      projectGrid.scrollTop = scrollPos;
+      if (scrollPos < maxScroll) {
+        requestAnimationFrame(scrollStep);
+      }
+    }
+    setTimeout(() => {
+      scrollStep();
+    }, 400);
+    projectGrid.addEventListener('mouseenter', () => { scrolling = false; });
+    projectGrid.addEventListener('mouseleave', () => {
+      if (scrollPos < maxScroll) {
+        scrolling = true;
+        scrollStep();
+      }
+    });
+  }
 }
