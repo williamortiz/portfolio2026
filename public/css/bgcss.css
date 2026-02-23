@@ -328,9 +328,11 @@ h1 {
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	gap: 0.65rem;
 	text-align: left;
-	max-height: clamp(270px, 40vh, 470px);
+	max-height: clamp(400px, 60vh, 700px);
+	padding-bottom: 2.5rem;
 	overflow-y: auto;
 	padding-right: 0.35rem;
+	padding-top: 21px;
 	scrollbar-width: thin;
 	scrollbar-color: color-mix(in srgb, var(--m3-outline) 70%, transparent) transparent;
 }
@@ -401,7 +403,7 @@ h1 {
 }
 
 .project-preview {
-	height: 138px;
+	height: 136px;
 	background: #e5dff0;
 	overflow: hidden;
 	border-bottom: 1px solid var(--m3-outline);
