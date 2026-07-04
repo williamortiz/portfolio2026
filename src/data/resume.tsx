@@ -180,6 +180,35 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "One Shot Records Marketplace",
+      href: "https://www.oneshotrecords.com/",
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "Designed and developed a premium online marketplace for rare vinyl records, hip-hop memorabilia, posters, and collectibles featuring robust wantlists, catalogs, and offer workflows.",
+      technologies: [
+        "UI/UX Design",
+        "Next.js",
+        "Tailwind CSS",
+        "React",
+        "E-commerce",
+      ],
+      links: [
+        {
+          type: "Live Site",
+          href: "https://www.oneshotrecords.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Wireframes",
+          href: "/projects/oneshot",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/Images/oneshot.png",
+      video: ""
+    },
+    {
       title: "Iovance Pharmaceuticals Refresh",
       href: "https://www.iovance.com/",
       dates: "2022",

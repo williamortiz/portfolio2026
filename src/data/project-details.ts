@@ -13,6 +13,19 @@ export interface ProjectDetail {
 }
 
 export const PROJECT_DETAILS: Record<string, ProjectDetail> = {
+  oneshot: {
+    id: "oneshot",
+    title: "One Shot Records Marketplace",
+    client: "One Shot Records",
+    role: "Lead UI/UX Designer & Developer",
+    team: "One Shot Records Team",
+    year: "2025",
+    description: "Designed and developed a premium online marketplace for rare vinyl records, hip-hop memorabilia, posters, and collectibles. Built using modern design frameworks to support interactive wanting, collecting, and offering flows.",
+    liveUrl: "https://www.oneshotrecords.com/",
+    images: [
+      "/Images/oneshot.png"
+    ]
+  },
   iovance: {
     id: "iovance",
     title: "Iovance Pharmaceuticals Website Refresh",
