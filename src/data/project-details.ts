@@ -1,0 +1,147 @@
+export interface ProjectDetail {
+  id: string;
+  title: string;
+  client: string;
+  role: string;
+  team: string;
+  year: string;
+  description: string;
+  liveUrl?: string;
+  desktopImages?: string[];
+  mobileImages?: string[];
+  images?: string[];
+}
+
+export const PROJECT_DETAILS: Record<string, ProjectDetail> = {
+  iovance: {
+    id: "iovance",
+    title: "Iovance Pharmaceuticals Website Refresh",
+    client: "Iovance Pharmaceutical",
+    role: "UI/UX Design and Art Direction",
+    team: "Pixacore",
+    year: "2022",
+    description: "Full website refresh layout, including comprehensive desktop and mobile wireframes and site maps.",
+    liveUrl: "https://www.iovance.com/",
+    desktopImages: [
+      "/Images/Iovance/desktop_wires/0.0 home.png",
+      "/Images/Iovance/desktop_wires/1.1 about iovance bio-1.png",
+      "/Images/Iovance/desktop_wires/2.1 about TIL.png",
+      "/Images/Iovance/desktop_wires/3.1 iCTC.png",
+      "/Images/Iovance/desktop_wires/4.1 clinical pipeline.png",
+      "/Images/Iovance/desktop_wires/5.1 current opportunities.png",
+      "/Images/Iovance/desktop_wires/F6.0 site map.png"
+    ],
+    mobileImages: [
+      "/Images/Iovance/Mobile_wires/0.0 home.png",
+      "/Images/Iovance/Mobile_wires/1.1 about iovance.png",
+      "/Images/Iovance/Mobile_wires/2.1 ictc.png",
+      "/Images/Iovance/Mobile_wires/3.1 about TIL.png",
+      "/Images/Iovance/Mobile_wires/4.1 clinical pipeline.png",
+      "/Images/Iovance/Mobile_wires/5.1 current opportunities.png",
+      "/Images/Iovance/Mobile_wires/U6.0 site map.png"
+    ]
+  },
+  bayer: {
+    id: "bayer",
+    title: "Bayer Pharmaceuticals Web Portal",
+    client: "Bayer Pharmaceutical",
+    role: "UI/UX Design and Art Direction",
+    team: "Pixacore",
+    year: "2022",
+    description: "Detailed wireframes and sitemaps designed for Bayer's primary healthcare professional portal and patient information workflows.",
+    liveUrl: "https://www.bayer.com/en/pharma/pharmaceuticals/",
+    images: [
+      "/Images/Bayer/0.0 Home.png",
+      "/Images/Bayer/1.1 Prostate Cancer.png",
+      "/Images/Bayer/2.0 Patient Safety.png",
+      "/Images/Bayer/3.0 News & Events.png",
+      "/Images/Bayer/4.0 Contact Us.png",
+      "/Images/Bayer/F4.0 Sitemap.png"
+    ]
+  },
+  blueprint: {
+    id: "blueprint",
+    title: "Blueprint Medicines Information Center",
+    client: "Blueprint Pharmaceutical",
+    role: "UI/UX Design and Art Direction",
+    team: "Pixacore",
+    year: "2022",
+    description: "High-fidelity UX design templates for medical information portals, congress presentations index, and clinical trials tracking workflows.",
+    liveUrl: "https://www.blueprintmedinfo.com/",
+    images: [
+      "/Images/Blueprint/0.0. Search Medical Information (Home).png",
+      "/Images/Blueprint/1.1 Congress Presentations.png",
+      "/Images/Blueprint/2.1 Clinical Trials.png"
+    ]
+  },
+  bms: {
+    id: "bms",
+    title: "Bristol Myers Squibb Pathways",
+    client: "Bristol Myers Squibb Pharmaceutical",
+    role: "Digital Production Artist",
+    team: "Pixacore",
+    year: "2022",
+    description: "Digital assets production, layout design, and illustration of biological pathways including BCMA, CD19, SIRPα, and GPRC5D.",
+    liveUrl: "https://www.bmsscience.com/pathways/",
+    images: [
+      "/Images/Bms/Bms_documents.png",
+      "/Images/Bms/BCMA.png",
+      "/Images/Bms/CD19.png",
+      "/Images/Bms/SIRPα.png",
+      "/Images/Bms/GPRC5D.png",
+      "/Images/Bms/Ikaros and Aiolos.png"
+    ]
+  },
+  vitrakvi: {
+    id: "vitrakvi",
+    title: "Vitrakvi (Bayer) HCP Portal",
+    client: "Bayer Pharmaceutical",
+    role: "UI/UX Design and Art Direction",
+    team: "Pixacore",
+    year: "2022",
+    description: "User experience maps, layout designs, and responsive wireframes for the Vitrakvi HCP web application on desktop and mobile screens.",
+    liveUrl: "https://hcp.vitrakvi-us.com/",
+    desktopImages: [
+      "/Images/vitrakvi/desktop/0.0 Home - full.png",
+      "/Images/vitrakvi/desktop/2.3 Pediatric Data.png",
+      "/Images/vitrakvi/desktop/2.4.1 Lung.png",
+      "/Images/vitrakvi/desktop/2.5 Patient Cases.png",
+      "/Images/vitrakvi/desktop/4.0 NCCN (pop-ups).png",
+      "/Images/vitrakvi/desktop/5.0 Testing.png",
+      "/Images/vitrakvi/desktop/7.1 Videos.png"
+    ],
+    mobileImages: [
+      "/Images/vitrakvi/mobile/0.0 Home Mobile - full.png",
+      "/Images/vitrakvi/mobile/2.3 Patient cases Mobile-1.png",
+      "/Images/vitrakvi/mobile/2.3 Pediatric Data Mobile.png",
+      "/Images/vitrakvi/mobile/4.0 NCCN Mobile (pop-ups).png",
+      "/Images/vitrakvi/mobile/mobile menu collapsed.png"
+    ]
+  },
+  rockford: {
+    id: "rockford",
+    title: "Rockford Regents Athletics Site",
+    client: "Rockford University",
+    role: "Web Designer",
+    team: "Presto Sports",
+    year: "2015",
+    description: "Athletics program web portal layout design for Rockford University's sports news and events.",
+    liveUrl: "https://rockfordregents.com/index.aspx",
+    images: [
+      "/Images/Rockford/Rockford_index.jpg"
+    ]
+  },
+  crandall: {
+    id: "crandall",
+    title: "Crandall Chargers Athletics Site",
+    client: "Crandall University",
+    role: "Web Designer",
+    team: "Presto Sports",
+    year: "2015",
+    description: "Custom sports branding, theme design, and athletic portal landing page for Crandall University Chargers.",
+    liveUrl: "https://crandallchargers.ca/landing/index",
+    images: [
+      "/Images/Crandall/Crandall Home.png"
+    ]
+  }
+};

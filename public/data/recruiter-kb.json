@@ -1,0 +1,57 @@
+{
+  "assistantName": "William Recruiter Assistant",
+  "welcomeMessage": "Hi, I am William’s recruiter assistant. Ask me anything about role fit, skills, logistics, or next steps.",
+  "fallbackAnswer": "Great question. For specifics not listed here, please use the contact form below and include the role, location, and timeline.",
+  "quickQuestions": [
+    "What roles is William targeting?",
+    "What is his core skill set?",
+    "Which tools does he use?",
+    "Is he open to remote or hybrid?",
+    "How does he use AI in his workflow?",
+    "What is his interview availability?",
+    "What are his compensation expectations?",
+    "How can we contact him quickly?"
+  ],
+  "intents": [
+    {
+      "id": "role-fit",
+      "patterns": ["role", "roles", "position", "title", "fit", "opening"],
+      "answer": "William is best aligned with UI/UX Designer, Product Designer, and Front-End focused digital production roles where design quality and implementation both matter."
+    },
+    {
+      "id": "skills",
+      "patterns": ["skill", "stack", "strength", "expertise", "specialty"],
+      "answer": "His core strengths are UI/UX design, responsive web design, front-end collaboration, design systems, and digital + print production workflows."
+    },
+    {
+      "id": "tools",
+      "patterns": ["tool", "figma", "adobe", "photoshop", "illustrator", "xd", "workflow"],
+      "answer": "He works across modern design and production tooling, including interface design, web production, and visual asset workflows for digital and print deliverables."
+    },
+    {
+      "id": "location-mode",
+      "patterns": ["remote", "hybrid", "onsite", "on-site", "location", "new york", "nyc"],
+      "answer": "William is New York-based and open to discussing remote, hybrid, and on-site options depending on team needs and role scope."
+    },
+    {
+      "id": "ai-usage",
+      "patterns": ["ai", "genai", "generative", "llm", "comfyui", "gemini", "imagen", "prompt"],
+      "answer": "He actively explores generative AI for concepting and creative acceleration, including prompt engineering and experimentation with tools like Imagen, Gemini, loraAi, and ComfyUI."
+    },
+    {
+      "id": "availability",
+      "patterns": ["availability", "interview", "start date", "start", "notice", "timeline"],
+      "answer": "For interview timing and start-date details, the fastest path is direct outreach. William is responsive and can coordinate quickly via email."
+    },
+    {
+      "id": "compensation",
+      "patterns": ["salary", "compensation", "rate", "budget", "pay", "range"],
+      "answer": "Compensation is discussed based on role scope, level, location, and benefits. William can share expectations during recruiter screening."
+    },
+    {
+      "id": "contact",
+      "patterns": ["contact", "email", "reach", "phone", "linkedin"],
+      "answer": "Best contact: use the contact form in the footer."
+    }
+  ]
+}
