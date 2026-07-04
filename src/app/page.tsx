@@ -40,6 +40,7 @@ export default function Page() {
                     text={firstName}
                     className="text-primary font-bold"
                     delay={30}
+                    startDelay={240}
                     animationFrom={{ opacity: 0, transform: "translate3d(0,25px,0)" }}
                     animationTo={{ opacity: 1, transform: "translate3d(0,0px,0)" }}
                   />

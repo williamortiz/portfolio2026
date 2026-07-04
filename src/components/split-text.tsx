@@ -7,6 +7,7 @@ interface SplitTextProps {
   text?: string;
   className?: string;
   delay?: number;
+  startDelay?: number;
   animationFrom?: any;
   animationTo?: any;
   easing?: string;
@@ -20,6 +21,7 @@ export function SplitText({
   text = "",
   className = "",
   delay = 30,
+  startDelay = 0,
   animationFrom = { opacity: 0, transform: "translate3d(0,30px,0)" },
   animationTo = { opacity: 1, transform: "translate3d(0,0px,0)" },
   easing = "cubic-bezier(0, 0, 0.2, 1)",
@@ -68,7 +70,7 @@ export function SplitText({
             }
           }
         : animationFrom,
-      delay: i * delay,
+      delay: startDelay + i * delay,
       config: { easing: easing as any },
     }))
   );
