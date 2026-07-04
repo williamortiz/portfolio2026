@@ -81,21 +81,25 @@ export default function ProjectsSection() {
           </div>
         ) : (
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 max-w-[800px] mx-auto auto-rows-fr">
-            {DATA.printProjects.map((project, id) => (
-              <BlurFade
-                key={project.title}
-                delay={BLUR_FADE_DELAY * 2 + id * 0.05}
-                className="h-full"
-              >
-                <ProjectCard
-                  title={project.title}
-                  description={`CLIENT: ${project.title}\n\nROLE: ${project.role}\n\nTEAM: ${project.team}`}
-                  dates={project.dates}
-                  tags={project.technologies}
-                  image={project.image}
-                />
-              </BlurFade>
-            ))}
+            {DATA.printProjects.map((project, id) => {
+              const p = project as any;
+              return (
+                <BlurFade
+                  key={project.title}
+                  delay={BLUR_FADE_DELAY * 2 + id * 0.05}
+                  className="h-full"
+                >
+                  <ProjectCard
+                    title={project.title}
+                    description={`CLIENT: ${project.team}\n\nROLE: ${project.role}${p.description ? `\n\n${p.description}` : ""}`}
+                    dates={project.dates}
+                    tags={project.technologies}
+                    image={project.image}
+                    links={p.links}
+                  />
+                </BlurFade>
+              );
+            })}
           </div>
         )}
       </div>

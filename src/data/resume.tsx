@@ -408,35 +408,192 @@ export const DATA = {
   ],
   printProjects: [
     {
-      title: "Verizon Telecommunications",
-      dates: "2008",
-      role: "Studio Manager / Print Production Artist",
-      team: "Global Hue",
+      title: "BioMarin Vimizim Campaign",
+      dates: "2018",
+      role: "Integrated Production Artist",
+      team: "Pixacore",
       image: "/Images/Thumbs/pthumbs10.png",
-      technologies: ["Print Production", "Studio Management", "InDesign"]
+      description: "Integrated production campaign for Vimizim (BioMarin). Created full clinical style guides and responsive HTML email templates.",
+      technologies: ["Email Production", "Style Guides", "HTML/CSS", "Photoshop"],
+      links: [
+        {
+          type: "Style Guide",
+          href: "/assets/samples/StyleGuides/Vimizim_BioMarin_SG.pdf",
+          icon: <Icons.globe className="size-3" />
+        },
+        {
+          type: "Brand Email",
+          href: "/assets/samples/Emails/Vimizim_BioMarin_Email.pdf",
+          icon: <Icons.globe className="size-3" />
+        },
+        {
+          type: "Patient Email (Drive)",
+          href: "https://drive.google.com/drive/folders/1P358bpblYOgG6W4ycedqWTDaBV12ik8V",
+          icon: <Icons.globe className="size-3" />
+        }
+      ]
     },
     {
-      title: "AT&T Telecommunications",
-      dates: "2008",
-      role: "Studio Manager / Print Production Artist",
-      team: "Global Hue",
+      title: "Pfizer HemMobile App",
+      dates: "2018",
+      role: "Integrated Production Specialist",
+      team: "Pixacore",
+      image: "/Images/Thumbs/pthumbs11.png",
+      description: "Mobile application interface and digital logger production for Pfizer HemMobile, tracking infusion and bleed cycles.",
+      technologies: ["Mobile Asset Production", "iOS/Android", "Illustrator"],
+      links: [
+        {
+          type: "iOS Assets (Drive)",
+          href: "https://drive.google.com/drive/folders/1P358bpblYOgG6W4ycedqWTDaBV12ik8V",
+          icon: <Icons.globe className="size-3" />
+        },
+        {
+          type: "Android Assets (Drive)",
+          href: "https://drive.google.com/drive/folders/1P358bpblYOgG6W4ycedqWTDaBV12ik8V",
+          icon: <Icons.globe className="size-3" />
+        }
+      ]
+    },
+    {
+      title: "Neurocrine Ingrezza Launch",
+      dates: "2018",
+      role: "Interactive Production Specialist",
+      team: "Pixacore",
+      image: "/Images/Thumbs/pthumbs12.png",
+      description: "HCP interactive iPad presentations (iVA) and email campaigns built for the brand launch of Ingrezza.",
+      technologies: ["iPad Presentation (iVA)", "Veeva Systems", "InDesign"],
+      links: [
+        {
+          type: "iPad Presenter",
+          href: "/assets/samples/Ipad/Ingrezza_Branded_HCP_Launch_iVA_2.pdf",
+          icon: <Icons.globe className="size-3" />
+        },
+        {
+          type: "Email Assets",
+          href: "/assets/samples/Emails/Ingrezza_email.pdf",
+          icon: <Icons.globe className="size-3" />
+        }
+      ]
+    },
+    {
+      title: "JBL Subway Kiosk (Motion)",
+      dates: "2018",
+      role: "Motion Designer / Production Artist",
+      team: "Medallion Associates",
+      image: "/Images/Thumbs/pthumbs13.png",
+      description: "Subway kiosk motion graphics banner and out-of-home video banner featuring Aaron Judge.",
+      technologies: ["Motion Graphics", "After Effects", "OOH Advertising"],
+      links: [
+        {
+          type: "Watch Video",
+          href: "/assets/samples/Motion/JBL_Judge_Subway_kiosk_final.mp4",
+          icon: <Icons.globe className="size-3" />
+        }
+      ]
+    },
+    {
+      title: "Ultragenx Exhibit & OOH",
+      dates: "2018",
+      role: "Large Format Print Production Artist",
+      team: "Pixacore",
+      image: "/Images/Thumbs/pthumbs14.png",
+      description: "OOH exhibit stand, backlit displays, and podium layouts for Ultragenx convention booth.",
+      technologies: ["Large Format Print", "Exhibition Design", "Illustrator"],
+      links: [
+        {
+          type: "Exhibit Stand",
+          href: "/assets/samples/OOHConvention_displays/Ultragenx_Exhibit%20Stand%20and%20Podium.pdf",
+          icon: <Icons.globe className="size-3" />
+        },
+        {
+          type: "Backlit Wall (Drive)",
+          href: "https://drive.google.com/drive/folders/1P358bpblYOgG6W4ycedqWTDaBV12ik8V",
+          icon: <Icons.globe className="size-3" />
+        },
+        {
+          type: "Flashcard",
+          href: "/assets/samples/Print/Ultragenx_flashcard.pdf",
+          icon: <Icons.globe className="size-3" />
+        }
+      ]
+    },
+    {
+      title: "Votrient ASCO Panels",
+      dates: "2017",
+      role: "Large Format Print Production Artist",
+      team: "Pixacore",
       image: "/Images/Thumbs/pthumbs15.png",
-      technologies: ["Print Production", "Studio Management", "InDesign"]
+      description: "Convention exhibition panels for Votrient STS ASCO conference presentation.",
+      technologies: ["Large Format Print", "Exhibition Design", "Illustrator"],
+      links: [
+        {
+          type: "ASCO Panels (Drive)",
+          href: "https://drive.google.com/drive/folders/1P358bpblYOgG6W4ycedqWTDaBV12ik8V",
+          icon: <Icons.globe className="size-3" />
+        },
+        {
+          type: "Patient Brochure",
+          href: "/assets/samples/Print/%20Votrient%20Patient%20Brochure%20PDF.pdf",
+          icon: <Icons.globe className="size-3" />
+        }
+      ]
     },
     {
-      title: "Allergan Pharmaceuticals",
+      title: "Novartis Tasigna Campaign",
+      dates: "2017",
+      role: "Production Artist",
+      team: "Regan Campbell Ward McCann",
+      image: "/Images/Thumbs/pthumbs12.png",
+      description: "Print newsletter production for 'Tasigna Tips' internal campaign, and clinical messaging guides.",
+      technologies: ["Print Production", "Layout Design", "InDesign"],
+      links: [
+        {
+          type: "Tasigna Tips #3",
+          href: "/assets/samples/Print/Tasigna%20Tips%20Issue%203.pdf",
+          icon: <Icons.globe className="size-3" />
+        },
+        {
+          type: "Messaging Guide",
+          href: "/assets/samples/Print/Novartis_Tasigna_Messaging%20PDF.pdf",
+          icon: <Icons.globe className="size-3" />
+        }
+      ]
+    },
+    {
+      title: "Novartis Afinitor Campaign",
+      dates: "2017",
+      role: "Production Artist",
+      team: "Regan Campbell Ward McCann",
+      image: "/Images/Thumbs/pthumbs13.png",
+      description: "Print production for the Afinitor October Newsletter and B2B clinical flashcards.",
+      technologies: ["Print Production", "Layout Design", "InDesign"],
+      links: [
+        {
+          type: "October Newsletter",
+          href: "/assets/samples/Print/Afinitor_October_Newsletter.pdf",
+          icon: <Icons.globe className="size-3" />
+        },
+        {
+          type: "Flashcard",
+          href: "/assets/samples/Print/Afinitor_Flashcard.pdf",
+          icon: <Icons.globe className="size-3" />
+        }
+      ]
+    },
+    {
+      title: "Verizon Wireless Campaign",
+      dates: "2007",
+      role: "Studio Manager / Print Production Artist",
+      team: "GlobalHue",
+      image: "/Images/Thumbs/pthumbs10.png",
+      technologies: ["Print Production", "Studio Management", "Photoshop"]
+    },
+    {
+      title: "Restasis Campaign",
       dates: "2005",
       role: "Studio Manager / Print Production Artist",
       team: "Regan, Campbell, Ward and McCann",
       image: "/Images/Thumbs/pthumbs11.png",
-      technologies: ["Print Production", "Studio Management", "Photoshop"]
-    },
-    {
-      title: "Novartis Pharmaceuticals",
-      dates: "2005",
-      role: "Studio Manager / Print Production Artist",
-      team: "Regan, Campbell, Ward and McCann",
-      image: "/Images/Thumbs/pthumbs12.png",
       technologies: ["Print Production", "Studio Management", "Photoshop"]
     },
     {
