@@ -206,7 +206,8 @@ export const DATA = {
         }
       ],
       image: "/Images/oneshot.png",
-      video: ""
+      video: "",
+      categories: ["UI/UX Design", "Interactive & Web"]
     },
     {
       title: "Iovance Pharmaceuticals Refresh",
@@ -229,7 +230,8 @@ export const DATA = {
         }
       ],
       image: "/Images/Thumbs/thumbs.png",
-      video: ""
+      video: "",
+      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"]
     },
     {
       title: "Bayer Pharmaceuticals Portal",
@@ -252,7 +254,8 @@ export const DATA = {
         }
       ],
       image: "/Images/Thumbs/thumbs2.png",
-      video: ""
+      video: "",
+      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"]
     },
     {
       title: "Blueprint MedInfo Site",
@@ -275,7 +278,8 @@ export const DATA = {
         }
       ],
       image: "/Images/Thumbs/thumbs3.png",
-      video: ""
+      video: "",
+      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"]
     },
     {
       title: "BMS Pathways Portal",
@@ -298,7 +302,8 @@ export const DATA = {
         }
       ],
       image: "/Images/Thumbs/thumbs4.png",
-      video: ""
+      video: "",
+      categories: ["Digital Production", "Pharma Campaigns"]
     },
     {
       title: "Vitrakvi (Bayer) HCP Portal",
@@ -321,7 +326,8 @@ export const DATA = {
         }
       ],
       image: "/Images/Thumbs/thumbs6.png",
-      video: ""
+      video: "",
+      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"]
     },
     {
       title: "Intercept NASH Portal",
@@ -339,7 +345,8 @@ export const DATA = {
         }
       ],
       image: "/Images/Thumbs/thumbs5.png",
-      video: ""
+      video: "",
+      categories: ["Digital Production", "Interactive & Web", "Pharma Campaigns"]
     },
     {
       title: "Mizuo Peck Actor Portfolio",
@@ -357,7 +364,8 @@ export const DATA = {
         }
       ],
       image: "/Images/Thumbs/thumbs7.png",
-      video: ""
+      video: "",
+      categories: ["UI/UX Design", "Interactive & Web"]
     },
     {
       title: "Rockford University Athletics",
@@ -380,7 +388,8 @@ export const DATA = {
         }
       ],
       image: "/Images/Thumbs/thumbs8.png",
-      video: ""
+      video: "",
+      categories: ["UI/UX Design", "Interactive & Web"]
     },
     {
       title: "Crandall Chargers Athletics",
@@ -403,7 +412,65 @@ export const DATA = {
         }
       ],
       image: "/Images/Thumbs/thumbs9.png",
-      video: ""
+      video: "",
+      categories: ["UI/UX Design", "Interactive & Web"]
+    },
+    {
+      title: "Trodelvy Interactive Quiz",
+      href: "/projects/tro-truths",
+      dates: "2025",
+      active: true,
+      description:
+        "Designed an interactive clinical quiz website ('TRO Truths') for Trodelvy (Gilead Sciences) to test healthcare professional knowledge. Features a sleek responsive interface with mobile/desktop wireframes, instant results validation, and clinical trial reference popups.",
+      technologies: ["UI/UX Design", "Interactive Design", "Pharma Campaigns", "Figma", "Responsive Layouts"],
+      links: [
+        {
+          type: "Wireframes",
+          href: "/projects/tro-truths",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/Images/TRO_Truths/D-1.0_Start.jpg",
+      video: "",
+      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"]
+    },
+    {
+      title: "Trodelvy Patient Treatment Guide",
+      href: "/projects/tro-patient-guide",
+      dates: "2025",
+      active: true,
+      description:
+        "Designed a comprehensive patient treatment layout guide for Trodelvy (Gilead Sciences). Created multi-page digital layouts detailing safety profiles, dosage tables, and support resources for patients and caregivers.",
+      technologies: ["Print Production", "Layout Design", "InDesign", "Pharma Campaigns"],
+      links: [
+        {
+          type: "Wireframes",
+          href: "/projects/tro-patient-guide",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/Images/TRO_Patient_Treatment_Guide/1752670413823-a29ed99b-bad6-4a46-82d7-0194af9a4aed25 (1)_1.jpg",
+      video: "",
+      categories: ["UI/UX Design", "Digital Production", "Pharma Campaigns"]
+    },
+    {
+      title: "ATA Enterprise Architecture",
+      href: "/assets/samples/ATA/ATA_architecture_v_1.6.pdf",
+      dates: "2024",
+      active: true,
+      description:
+        "Technical systems architecture blueprint and design layout for enterprise application ecosystems.",
+      technologies: ["Systems Architecture", "Visio", "Technical Design"],
+      links: [
+        {
+          type: "Architecture PDF",
+          href: "/assets/samples/ATA/ATA_architecture_v_1.6.pdf",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/Images/Thumbs/athumbs19.png",
+      video: "",
+      categories: ["UI/UX Design", "Interactive & Web"]
     }
   ],
   printProjects: [
@@ -431,7 +498,8 @@ export const DATA = {
           href: "https://drive.google.com/drive/folders/1P358bpblYOgG6W4ycedqWTDaBV12ik8V",
           icon: <Icons.globe className="size-3" />
         }
-      ]
+      ],
+      categories: ["Print & Large Format", "Digital Production", "Pharma Campaigns"]
     },
     {
       title: "Pfizer HemMobile App",
@@ -452,7 +520,8 @@ export const DATA = {
           href: "https://drive.google.com/drive/folders/1P358bpblYOgG6W4ycedqWTDaBV12ik8V",
           icon: <Icons.globe className="size-3" />
         }
-      ]
+      ],
+      categories: ["Digital Production", "Pharma Campaigns"]
     },
     {
       title: "Neurocrine Ingrezza Launch",
@@ -473,7 +542,8 @@ export const DATA = {
           href: "/assets/samples/Emails/Ingrezza_email.pdf",
           icon: <Icons.globe className="size-3" />
         }
-      ]
+      ],
+      categories: ["Interactive & Web", "Pharma Campaigns", "Digital Production"]
     },
     {
       title: "JBL Subway Kiosk (Motion)",
@@ -489,7 +559,8 @@ export const DATA = {
           href: "/assets/samples/Motion/JBL_Judge_Subway_kiosk_final.mp4",
           icon: <Icons.globe className="size-3" />
         }
-      ]
+      ],
+      categories: ["Print & Large Format"]
     },
     {
       title: "Ultragenx Exhibit & OOH",
@@ -515,7 +586,8 @@ export const DATA = {
           href: "/assets/samples/Print/Ultragenx_flashcard.pdf",
           icon: <Icons.globe className="size-3" />
         }
-      ]
+      ],
+      categories: ["Print & Large Format", "Pharma Campaigns"]
     },
     {
       title: "Votrient ASCO Panels",
@@ -536,7 +608,8 @@ export const DATA = {
           href: "/assets/samples/Print/%20Votrient%20Patient%20Brochure%20PDF.pdf",
           icon: <Icons.globe className="size-3" />
         }
-      ]
+      ],
+      categories: ["Print & Large Format", "Pharma Campaigns"]
     },
     {
       title: "Novartis Tasigna Campaign",
@@ -557,7 +630,8 @@ export const DATA = {
           href: "/assets/samples/Print/Novartis_Tasigna_Messaging%20PDF.pdf",
           icon: <Icons.globe className="size-3" />
         }
-      ]
+      ],
+      categories: ["Print & Large Format", "Pharma Campaigns"]
     },
     {
       title: "Novartis Afinitor Campaign",
@@ -578,7 +652,8 @@ export const DATA = {
           href: "/assets/samples/Print/Afinitor_Flashcard.pdf",
           icon: <Icons.globe className="size-3" />
         }
-      ]
+      ],
+      categories: ["Print & Large Format", "Pharma Campaigns"]
     },
     {
       title: "Verizon Wireless Campaign",
@@ -586,7 +661,8 @@ export const DATA = {
       role: "Studio Manager / Print Production Artist",
       team: "GlobalHue",
       image: "/Images/Thumbs/pthumbs10.png",
-      technologies: ["Print Production", "Studio Management", "Photoshop"]
+      technologies: ["Print Production", "Studio Management", "Photoshop"],
+      categories: ["Print & Large Format"]
     },
     {
       title: "Restasis Campaign",
@@ -594,7 +670,8 @@ export const DATA = {
       role: "Studio Manager / Print Production Artist",
       team: "Regan, Campbell, Ward and McCann",
       image: "/Images/Thumbs/pthumbs11.png",
-      technologies: ["Print Production", "Studio Management", "Photoshop"]
+      technologies: ["Print Production", "Studio Management", "Photoshop"],
+      categories: ["Print & Large Format", "Pharma Campaigns"]
     },
     {
       title: "Genentech",
@@ -602,7 +679,8 @@ export const DATA = {
       role: "Studio Manager / Print Production Artist",
       team: "Regan, Campbell, Ward and McCann",
       image: "/Images/Thumbs/pthumbs13.png",
-      technologies: ["Print Production", "Studio Management", "Illustrator"]
+      technologies: ["Print Production", "Studio Management", "Illustrator"],
+      categories: ["Print & Large Format", "Pharma Campaigns"]
     },
     {
       title: "Nickelodeon",
@@ -610,7 +688,8 @@ export const DATA = {
       role: "Print Production Artist",
       team: "The Sloan Group",
       image: "/Images/Thumbs/pthumbs14.png",
-      technologies: ["Print Production", "Layout Design", "Illustrator"]
+      technologies: ["Print Production", "Layout Design", "Illustrator"],
+      categories: ["Print & Large Format"]
     },
     {
       title: "Dunkin' Donuts",
@@ -618,7 +697,8 @@ export const DATA = {
       role: "Quality Control / Print Production Artist",
       team: "Medallion Associates",
       image: "/Images/Thumbs/pthumbs16.png",
-      technologies: ["Quality Control", "Print Production"]
+      technologies: ["Quality Control", "Print Production"],
+      categories: ["Print & Large Format"]
     },
     {
       title: "Kinney Shoes Catalog",
@@ -626,7 +706,8 @@ export const DATA = {
       role: "Quality Control / Print Production Artist",
       team: "Medallion Associates",
       image: "/Images/Thumbs/pthumbs17.png",
-      technologies: ["Quality Control", "Print Production"]
+      technologies: ["Quality Control", "Print Production"],
+      categories: ["Print & Large Format"]
     },
     {
       title: "Kinney Shoes Campaign",
@@ -634,7 +715,47 @@ export const DATA = {
       role: "Quality Control / Print Production Artist",
       team: "Medallion Associates",
       image: "/Images/Thumbs/pthumbs18.png",
-      technologies: ["Quality Control", "Print Production"]
+      technologies: ["Quality Control", "Print Production"],
+      categories: ["Print & Large Format"]
+    },
+    {
+      title: "Novartis Kesimpta Campaign",
+      dates: "2022",
+      role: "Digital Production Specialist",
+      team: "Pixacore",
+      image: "/Images/Kesimpta/KESIMPTA_1.png",
+      description: "Digital email marketing campaign layouts for Kesimpta (Novartis), including fully responsive brand and patient communications templates.",
+      technologies: ["Email Production", "HTML/CSS", "Photoshop", "Pharma Campaigns"],
+      links: [
+        {
+          type: "Brand Email",
+          href: "/assets/samples/Kesimpta/Frame.pdf",
+          icon: <Icons.globe className="size-3" />
+        },
+        {
+          type: "Patient Email",
+          href: "/assets/samples/Kesimpta/Frame-1.pdf",
+          icon: <Icons.globe className="size-3" />
+        }
+      ],
+      categories: ["Digital Production", "Pharma Campaigns", "Interactive & Web"]
+    },
+    {
+      title: "TBWA \\ Chiat \\ Day Campaigns",
+      dates: "2020",
+      role: "Studio Manager",
+      team: "TBWA \\ Chiat \\ Day",
+      image: "/Images/TBWA/Screen Shot 2020-01-20 at 4.40.25 PM.png",
+      description: "Interactive UI wireframes, sitemaps, and user journey maps for telecom and branding client websites.",
+      technologies: ["UI/UX Design", "Wireframing", "Information Architecture"],
+      links: [
+        {
+          type: "Wireframes PDF",
+          href: "/assets/samples/Wireframes_sample.pdf",
+          icon: <Icons.globe className="size-3" />
+        }
+      ],
+      categories: ["UI/UX Design", "Interactive & Web"]
     }
   ],
   aiArt: [

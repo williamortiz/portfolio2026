@@ -156,5 +156,40 @@ export const PROJECT_DETAILS: Record<string, ProjectDetail> = {
     images: [
       "/Images/Crandall/Crandall Home.png"
     ]
+  },
+  "tro-truths": {
+    id: "tro-truths",
+    title: "Trodelvy Interactive Quiz (TRO Truths)",
+    client: "Gilead Sciences",
+    role: "Lead UI/UX Designer",
+    team: "Pixacore",
+    year: "2025",
+    description: "Designed an interactive clinical quiz website ('TRO Truths') for Trodelvy (Gilead Sciences) to test healthcare professional knowledge. Features a sleek responsive interface with mobile/desktop wireframes, instant results validation, and clinical trial reference popups.",
+    desktopImages: [
+      "/Images/TRO_Truths/D-1.0_Start.jpg",
+      "/Images/TRO_Truths/D-2.0_Q1.jpg",
+      "/Images/TRO_Truths/D-14.0_Results.jpg"
+    ],
+    mobileImages: [
+      "/Images/TRO_Truths/M-1.0_Start.jpg",
+      "/Images/TRO_Truths/M-2.0_Q1.jpg",
+      "/Images/TRO_Truths/M-14.0_Results.jpg"
+    ]
+  },
+  "tro-patient-guide": {
+    id: "tro-patient-guide",
+    title: "Trodelvy Patient Treatment Guide",
+    client: "Gilead Sciences",
+    role: "Print & Digital Production Artist",
+    team: "Pixacore",
+    year: "2025",
+    description: "Designed a comprehensive patient treatment layout guide for Trodelvy (Gilead Sciences). Created multi-page digital layouts detailing safety profiles, dosage tables, and support resources for patients and caregivers.",
+    images: [
+      "/Images/TRO_Patient_Treatment_Guide/1752670413823-a29ed99b-bad6-4a46-82d7-0194af9a4aed25 (1)_1.jpg",
+      "/Images/TRO_Patient_Treatment_Guide/1752670413823-a29ed99b-bad6-4a46-82d7-0194af9a4aed25 (1)_2.jpg",
+      "/Images/TRO_Patient_Treatment_Guide/1752670413823-a29ed99b-bad6-4a46-82d7-0194af9a4aed25 (1)_3.jpg",
+      "/Images/TRO_Patient_Treatment_Guide/1752670413823-a29ed99b-bad6-4a46-82d7-0194af9a4aed25 (1)_4.jpg",
+      "/Images/TRO_Patient_Treatment_Guide/1752670413823-a29ed99b-bad6-4a46-82d7-0194af9a4aed25 (1)_5.jpg"
+    ]
   }
 };

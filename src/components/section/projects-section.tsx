@@ -7,8 +7,45 @@ import { DATA } from "@/data/resume";
 
 const BLUR_FADE_DELAY = 0.04;
 
+const CATEGORIES = [
+  "All",
+  "UI/UX Design",
+  "Interactive & Web",
+  "Digital Production",
+  "Print & Large Format",
+  "Pharma Campaigns"
+] as const;
+
+type Category = typeof CATEGORIES[number];
+
 export default function ProjectsSection() {
-  const [activeTab, setActiveTab] = useState<"digital" | "print">("digital");
+  const [selectedCategory, setSelectedCategory] = useState<Category>("All");
+
+  // Combine digital and print projects into a unified structure
+  const allProjects = [
+    ...DATA.projects.map((p) => ({
+      ...p,
+      type: "digital" as const,
+      descriptionToShow: p.description,
+    })),
+    ...DATA.printProjects.map((p) => {
+      const proj = p as any;
+      return {
+        ...p,
+        type: "print" as const,
+        descriptionToShow: `CLIENT: ${proj.team}\n\nROLE: ${proj.role}${proj.description ? `\n\n${proj.description}` : ""}`,
+        href: proj.links?.[0]?.href || "#",
+        video: ""
+      };
+    }),
+  ];
+
+  // Filter projects by category
+  const filteredProjects = allProjects.filter((project) => {
+    if (selectedCategory === "All") return true;
+    const cats = (project as any).categories || [];
+    return cats.includes(selectedCategory);
+  }) as any[];
 
   return (
     <section id="projects" className="space-y-8">
@@ -31,77 +68,44 @@ export default function ProjectsSection() {
           </div>
         </div>
 
-        {/* Custom Premium Toggle Switch */}
-        <div className="flex justify-center">
-          <div className="flex p-1 bg-muted rounded-2xl border ring-1 ring-border/5">
+        {/* Sleek Category Filter Pills */}
+        <div className="flex flex-wrap justify-center gap-2 max-w-[750px] mx-auto px-4 select-none">
+          {CATEGORIES.map((category) => (
             <button
-              onClick={() => setActiveTab("digital")}
-              className={`px-5 py-2 rounded-xl text-sm font-medium transition-all duration-300 cursor-pointer ${
-                activeTab === "digital"
-                  ? "bg-background text-foreground shadow-sm ring-1 ring-black/5 dark:ring-white/5"
-                  : "text-muted-foreground hover:text-foreground"
+              key={category}
+              onClick={() => setSelectedCategory(category)}
+              className={`px-4 py-1.5 rounded-full text-xs sm:text-sm font-medium transition-all duration-300 cursor-pointer border ${
+                selectedCategory === category
+                  ? "bg-black text-white border-black dark:bg-white dark:text-black dark:border-white shadow-md scale-105"
+                  : "bg-background text-muted-foreground border-border hover:text-foreground hover:border-foreground/50"
               }`}
             >
-              Digital & UI/UX
+              {category}
             </button>
-            <button
-              onClick={() => setActiveTab("print")}
-              className={`px-5 py-2 rounded-xl text-sm font-medium transition-all duration-300 cursor-pointer ${
-                activeTab === "print"
-                  ? "bg-background text-foreground shadow-sm ring-1 ring-black/5 dark:ring-white/5"
-                  : "text-muted-foreground hover:text-foreground"
-              }`}
-            >
-              Print Production
-            </button>
-          </div>
+          ))}
         </div>
 
-        {/* Projects Grid */}
-        {activeTab === "digital" ? (
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 max-w-[800px] mx-auto auto-rows-fr">
-            {DATA.projects.map((project, id) => (
-              <BlurFade
-                key={project.title}
-                delay={BLUR_FADE_DELAY * 2 + id * 0.05}
-                className="h-full"
-              >
-                <ProjectCard
-                  href={project.href}
-                  title={project.title}
-                  description={project.description}
-                  dates={project.dates}
-                  tags={project.technologies}
-                  image={project.image}
-                  video={project.video}
-                  links={project.links}
-                />
-              </BlurFade>
-            ))}
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 max-w-[800px] mx-auto auto-rows-fr">
-            {DATA.printProjects.map((project, id) => {
-              const p = project as any;
-              return (
-                <BlurFade
-                  key={project.title}
-                  delay={BLUR_FADE_DELAY * 2 + id * 0.05}
-                  className="h-full"
-                >
-                  <ProjectCard
-                    title={project.title}
-                    description={`CLIENT: ${project.team}\n\nROLE: ${project.role}${p.description ? `\n\n${p.description}` : ""}`}
-                    dates={project.dates}
-                    tags={project.technologies}
-                    image={project.image}
-                    links={p.links}
-                  />
-                </BlurFade>
-              );
-            })}
-          </div>
-        )}
+        {/* Dynamic Projects Grid */}
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 max-w-[800px] mx-auto auto-rows-fr">
+          {filteredProjects.map((project, id) => (
+            <BlurFade
+              key={`${project.title}-${selectedCategory}`}
+              delay={BLUR_FADE_DELAY * 2 + id * 0.04}
+              className="h-full"
+            >
+              <ProjectCard
+                href={project.href}
+                title={project.title}
+                description={project.descriptionToShow}
+                dates={project.dates}
+                tags={project.technologies}
+                image={project.image}
+                video={project.video}
+                links={project.links}
+              />
+            </BlurFade>
+          ))}
+        </div>
       </div>
     </section>
   );
