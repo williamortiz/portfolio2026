@@ -207,7 +207,9 @@ export const DATA = {
       ],
       image: "/Images/oneshot.png",
       video: "",
-      categories: ["UI/UX Design", "Interactive & Web"]
+      categories: ["UI/UX Design", "Interactive & Web"],
+      subType: "website",
+      year: 2025
     },
     {
       title: "Iovance Pharmaceuticals Refresh",
@@ -231,7 +233,9 @@ export const DATA = {
       ],
       image: "/Images/Thumbs/thumbs.png",
       video: "",
-      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"]
+      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"],
+      subType: "website",
+      year: 2022
     },
     {
       title: "Bayer Pharmaceuticals Portal",
@@ -255,7 +259,9 @@ export const DATA = {
       ],
       image: "/Images/Thumbs/thumbs2.png",
       video: "",
-      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"]
+      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"],
+      subType: "website",
+      year: 2022
     },
     {
       title: "Blueprint MedInfo Site",
@@ -279,7 +285,9 @@ export const DATA = {
       ],
       image: "/Images/Thumbs/thumbs3.png",
       video: "",
-      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"]
+      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"],
+      subType: "website",
+      year: 2022
     },
     {
       title: "BMS Pathways Portal",
@@ -303,7 +311,9 @@ export const DATA = {
       ],
       image: "/Images/Thumbs/thumbs4.png",
       video: "",
-      categories: ["Digital Production", "Pharma Campaigns"]
+      categories: ["Digital Production", "Pharma Campaigns"],
+      subType: "digital",
+      year: 2022
     },
     {
       title: "Vitrakvi (Bayer) HCP Portal",
@@ -327,7 +337,9 @@ export const DATA = {
       ],
       image: "/Images/Thumbs/thumbs6.png",
       video: "",
-      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"]
+      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"],
+      subType: "website",
+      year: 2022
     },
     {
       title: "Intercept NASH Portal",
@@ -346,7 +358,9 @@ export const DATA = {
       ],
       image: "/Images/Thumbs/thumbs5.png",
       video: "",
-      categories: ["Digital Production", "Interactive & Web", "Pharma Campaigns"]
+      categories: ["Digital Production", "Interactive & Web", "Pharma Campaigns"],
+      subType: "website",
+      year: 2022
     },
     {
       title: "Mizuo Peck Actor Portfolio",
@@ -365,7 +379,9 @@ export const DATA = {
       ],
       image: "/Images/Thumbs/thumbs7.png",
       video: "",
-      categories: ["UI/UX Design", "Interactive & Web"]
+      categories: ["UI/UX Design", "Interactive & Web"],
+      subType: "website",
+      year: 2020
     },
     {
       title: "Rockford University Athletics",
@@ -389,7 +405,9 @@ export const DATA = {
       ],
       image: "/Images/Thumbs/thumbs8.png",
       video: "",
-      categories: ["UI/UX Design", "Interactive & Web"]
+      categories: ["UI/UX Design", "Interactive & Web"],
+      subType: "website",
+      year: 2015
     },
     {
       title: "Crandall Chargers Athletics",
@@ -413,7 +431,9 @@ export const DATA = {
       ],
       image: "/Images/Thumbs/thumbs9.png",
       video: "",
-      categories: ["UI/UX Design", "Interactive & Web"]
+      categories: ["UI/UX Design", "Interactive & Web"],
+      subType: "website",
+      year: 2015
     },
     {
       title: "Trodelvy Interactive Quiz",
@@ -432,7 +452,9 @@ export const DATA = {
       ],
       image: "/Images/TRO_Truths/D-1.0_Start.jpg",
       video: "",
-      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"]
+      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"],
+      subType: "website",
+      year: 2025
     },
     {
       title: "Trodelvy Patient Treatment Guide",
@@ -451,7 +473,9 @@ export const DATA = {
       ],
       image: "/Images/TRO_Patient_Treatment_Guide/1752670413823-a29ed99b-bad6-4a46-82d7-0194af9a4aed25 (1)_1.jpg",
       video: "",
-      categories: ["UI/UX Design", "Digital Production", "Pharma Campaigns"]
+      categories: ["UI/UX Design", "Digital Production", "Pharma Campaigns"],
+      subType: "print",
+      year: 2025
     },
     {
       title: "ATA Enterprise Architecture",
@@ -468,9 +492,11 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "/Images/Thumbs/athumbs19.png",
+      image: "/Images/ATA_architecture.png",
       video: "",
-      categories: ["UI/UX Design", "Interactive & Web"]
+      categories: ["UI/UX Design", "Interactive & Web"],
+      subType: "digital",
+      year: 2024
     }
   ],
   printProjects: [
@@ -499,7 +525,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />
         }
       ],
-      categories: ["Print & Large Format", "Digital Production", "Pharma Campaigns"]
+      categories: ["Print & Large Format", "Digital Production", "Pharma Campaigns"],
+      subType: "digital",
+      year: 2018
     },
     {
       title: "Pfizer HemMobile App",
@@ -521,7 +549,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />
         }
       ],
-      categories: ["Digital Production", "Pharma Campaigns"]
+      categories: ["Digital Production", "Pharma Campaigns"],
+      subType: "digital",
+      year: 2018
     },
     {
       title: "Neurocrine Ingrezza Launch",
@@ -543,7 +573,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />
         }
       ],
-      categories: ["Interactive & Web", "Pharma Campaigns", "Digital Production"]
+      categories: ["Interactive & Web", "Pharma Campaigns", "Digital Production"],
+      subType: "digital",
+      year: 2018
     },
     {
       title: "JBL Subway Kiosk (Motion)",
@@ -560,7 +592,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />
         }
       ],
-      categories: ["Print & Large Format"]
+      categories: ["Print & Large Format"],
+      subType: "print",
+      year: 2018
     },
     {
       title: "Ultragenx Exhibit & OOH",
@@ -587,7 +621,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />
         }
       ],
-      categories: ["Print & Large Format", "Pharma Campaigns"]
+      categories: ["Print & Large Format", "Pharma Campaigns"],
+      subType: "print",
+      year: 2018
     },
     {
       title: "Votrient ASCO Panels",
@@ -609,7 +645,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />
         }
       ],
-      categories: ["Print & Large Format", "Pharma Campaigns"]
+      categories: ["Print & Large Format", "Pharma Campaigns"],
+      subType: "print",
+      year: 2017
     },
     {
       title: "Novartis Tasigna Campaign",
@@ -631,7 +669,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />
         }
       ],
-      categories: ["Print & Large Format", "Pharma Campaigns"]
+      categories: ["Print & Large Format", "Pharma Campaigns"],
+      subType: "print",
+      year: 2017
     },
     {
       title: "Novartis Afinitor Campaign",
@@ -653,7 +693,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />
         }
       ],
-      categories: ["Print & Large Format", "Pharma Campaigns"]
+      categories: ["Print & Large Format", "Pharma Campaigns"],
+      subType: "print",
+      year: 2017
     },
     {
       title: "Verizon Wireless Campaign",
@@ -662,7 +704,9 @@ export const DATA = {
       team: "GlobalHue",
       image: "/Images/Thumbs/pthumbs10.png",
       technologies: ["Print Production", "Studio Management", "Photoshop"],
-      categories: ["Print & Large Format"]
+      categories: ["Print & Large Format"],
+      subType: "print",
+      year: 2007
     },
     {
       title: "Restasis Campaign",
@@ -671,7 +715,9 @@ export const DATA = {
       team: "Regan, Campbell, Ward and McCann",
       image: "/Images/Thumbs/pthumbs11.png",
       technologies: ["Print Production", "Studio Management", "Photoshop"],
-      categories: ["Print & Large Format", "Pharma Campaigns"]
+      categories: ["Print & Large Format", "Pharma Campaigns"],
+      subType: "print",
+      year: 2005
     },
     {
       title: "Genentech",
@@ -680,7 +726,9 @@ export const DATA = {
       team: "Regan, Campbell, Ward and McCann",
       image: "/Images/Thumbs/pthumbs13.png",
       technologies: ["Print Production", "Studio Management", "Illustrator"],
-      categories: ["Print & Large Format", "Pharma Campaigns"]
+      categories: ["Print & Large Format", "Pharma Campaigns"],
+      subType: "print",
+      year: 2005
     },
     {
       title: "Nickelodeon",
@@ -689,7 +737,9 @@ export const DATA = {
       team: "The Sloan Group",
       image: "/Images/Thumbs/pthumbs14.png",
       technologies: ["Print Production", "Layout Design", "Illustrator"],
-      categories: ["Print & Large Format"]
+      categories: ["Print & Large Format"],
+      subType: "print",
+      year: 1999
     },
     {
       title: "Dunkin' Donuts",
@@ -698,7 +748,9 @@ export const DATA = {
       team: "Medallion Associates",
       image: "/Images/Thumbs/pthumbs16.png",
       technologies: ["Quality Control", "Print Production"],
-      categories: ["Print & Large Format"]
+      categories: ["Print & Large Format"],
+      subType: "print",
+      year: 1995
     },
     {
       title: "Kinney Shoes Catalog",
@@ -707,7 +759,9 @@ export const DATA = {
       team: "Medallion Associates",
       image: "/Images/Thumbs/pthumbs17.png",
       technologies: ["Quality Control", "Print Production"],
-      categories: ["Print & Large Format"]
+      categories: ["Print & Large Format"],
+      subType: "print",
+      year: 1995
     },
     {
       title: "Kinney Shoes Campaign",
@@ -716,7 +770,9 @@ export const DATA = {
       team: "Medallion Associates",
       image: "/Images/Thumbs/pthumbs18.png",
       technologies: ["Quality Control", "Print Production"],
-      categories: ["Print & Large Format"]
+      categories: ["Print & Large Format"],
+      subType: "print",
+      year: 1995
     },
     {
       title: "Novartis Kesimpta Campaign",
@@ -738,7 +794,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />
         }
       ],
-      categories: ["Digital Production", "Pharma Campaigns", "Interactive & Web"]
+      categories: ["Digital Production", "Pharma Campaigns", "Interactive & Web"],
+      subType: "digital",
+      year: 2022
     },
     {
       title: "TBWA \\ Chiat \\ Day Campaigns",
@@ -755,7 +813,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />
         }
       ],
-      categories: ["UI/UX Design", "Interactive & Web"]
+      categories: ["UI/UX Design", "Interactive & Web"],
+      subType: "digital",
+      year: 2020
     }
   ],
   aiArt: [

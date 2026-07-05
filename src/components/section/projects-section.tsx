@@ -40,8 +40,26 @@ export default function ProjectsSection() {
     }),
   ];
 
+  // Sort projects: full websites first, then other digital, then print (date sorted descending)
+  const sortedProjects = [...allProjects].sort((a: any, b: any) => {
+    const getGroupOrder = (subType: string) => {
+      if (subType === "website") return 1;
+      if (subType === "digital") return 2;
+      if (subType === "print") return 3;
+      return 4;
+    };
+    const orderA = getGroupOrder(a.subType);
+    const orderB = getGroupOrder(b.subType);
+    if (orderA !== orderB) {
+      return orderA - orderB;
+    }
+    const yearA = a.year || 0;
+    const yearB = b.year || 0;
+    return yearB - yearA;
+  });
+
   // Filter projects by category
-  const filteredProjects = allProjects.filter((project) => {
+  const filteredProjects = sortedProjects.filter((project) => {
     if (selectedCategory === "All") return true;
     const cats = (project as any).categories || [];
     return cats.includes(selectedCategory);
