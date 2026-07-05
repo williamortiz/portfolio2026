@@ -13,7 +13,7 @@ export const DATA = {
     "New York-based UI/UX Designer and Front-End Developer with a passion for digital production and generative AI workflows.",
   summary:
     "I am an experienced senior professional with a diverse background in digital, print, and web development. With years of experience in the industry, I have honed my skills in designing, developing, and managing projects across various platforms. Alongside my professional work, I actively explore generative AI tools through conceptual and experimental projects. This includes prompt engineering and hands-on experimentation with tools such as Imagen 4, Gemini, Nano Banana, loraAi, and ComfyUI, allowing me to stay current with emerging technologies and evolving creative workflows.",
-  avatarUrl: "/Images/william_portrait.jpg",
+  avatarUrl: "/Images/william_portrait_2.jpeg",
   skills: [
     { name: "UI/UX Design" },
     { name: "Front-End Development" },
