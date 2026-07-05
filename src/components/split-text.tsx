@@ -26,7 +26,7 @@ export function SplitText({
   animationTo = { opacity: 1, transform: "translate3d(0,0px,0)" },
   easing = "cubic-bezier(0, 0, 0.2, 1)",
   threshold = 0.1,
-  rootMargin = "-100px",
+  rootMargin = "-50px 0px",
   textAlign = "center",
   onLetterAnimationComplete,
 }: SplitTextProps) {
@@ -78,7 +78,7 @@ export function SplitText({
   let letterIndex = 0;
 
   return (
-    <p
+    <span
       ref={ref}
       className={`split-parent ${className}`}
       style={{ textAlign, display: "inline" }}
@@ -105,6 +105,6 @@ export function SplitText({
           )}
         </span>
       ))}
-    </p>
+    </span>
   );
 }
