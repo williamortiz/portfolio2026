@@ -99,7 +99,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Web Designer",
-      logoUrl: "/Images/logos/prestosports.svg",
+      logoUrl: "/Images/logos/prestosports.png",
       start: "2015",
       end: "2015",
       description:
