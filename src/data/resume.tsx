@@ -175,7 +175,7 @@ export const DATA = {
   certifications: [
     {
       name: "Google UX Design Professional Certificate - Google (2025)",
-      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+      href: "https://www.coursera.org/account/accomplishments/professional-cert/certificate/3M746PVDWQYS"
     },
     {
       name: "Architecting with Google Compute Engine Specialization - Google Cloud (2020)",
