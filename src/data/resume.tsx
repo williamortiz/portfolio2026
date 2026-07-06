@@ -173,8 +173,46 @@ export const DATA = {
     }
   ],
   certifications: [
-    { name: "Google UX Design Professional Certificate (2023)" },
-    { name: "Architecting with Google Compute Engine (2020)" },
+    {
+      name: "Google UX Design Professional Certificate - Google (2025)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "Architecting with Google Compute Engine Specialization - Google Cloud (2020)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "Introduction to AI - Google (2025)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "Design a User Experience for Social Good & Prepare for Jobs - Google (2025)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "Build Dynamic User Interfaces (UI) for Websites - Google (2025)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "Create High-Fidelity Designs and Prototypes in Figma - Google (2024)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "Conduct UX Research and Test Early Concepts - Google (2023)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "Google Ads for Beginners - Coursera (2023)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "Build Wireframes and Low-Fidelity Prototypes - Google (2023)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "Start the UX Design Process: Empathize, Define, and Ideate - Google (2022)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
     { name: "Security in Google Cloud (2019)" },
     { name: "Building Web Applications in PHP (2019)" },
     { name: "Blasting Off with Bootstrap - Code School (2015)" },

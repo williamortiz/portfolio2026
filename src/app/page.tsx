@@ -141,14 +141,25 @@ export default function Page() {
             <h2 className="text-xl font-bold">Certifications</h2>
           </BlurFade>
           <div className="flex flex-col gap-3">
-            {DATA.certifications.map((cert, index) => (
+            {DATA.certifications.map((cert: any, index) => (
               <BlurFade
                 key={cert.name}
                 delay={BLUR_FADE_DELAY * 9 + index * 0.05}
               >
                 <div className="flex items-center gap-x-3 text-sm text-muted-foreground">
                   <div className="size-2 rounded-full bg-foreground/50 flex-none" />
-                  <span>{cert.name}</span>
+                  {cert.href ? (
+                    <a
+                      href={cert.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline hover:text-foreground transition-colors duration-200"
+                    >
+                      {cert.name}
+                    </a>
+                  ) : (
+                    <span>{cert.name}</span>
+                  )}
                 </div>
               </BlurFade>
             ))}
