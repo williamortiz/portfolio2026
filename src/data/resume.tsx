@@ -450,7 +450,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "/Images/TRO_Truths/D-1.0_Start.jpg",
+      image: "/Images/Thumbs/tro_truths_thumb.png",
       video: "",
       categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"],
       subType: "website",
@@ -462,7 +462,7 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "Designed a comprehensive patient treatment layout guide for Trodelvy (Gilead Sciences). Created multi-page digital layouts detailing safety profiles, dosage tables, and support resources for patients and caregivers.",
+        "Designed a comprehensive patient treatment guide for Trodelvy (Gilead Sciences). Created multi-page digital layouts detailing safety profiles, dosage tables, and support resources for patients and caregivers.",
       technologies: ["Print Production", "Layout Design", "InDesign", "Pharma Campaigns"],
       links: [
         {
@@ -471,7 +471,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "/Images/TRO_Patient_Treatment_Guide/1752670413823-a29ed99b-bad6-4a46-82d7-0194af9a4aed25 (1)_1.jpg",
+      image: "/Images/Thumbs/tro_patient_guide_thumb.png",
       video: "",
       categories: ["UI/UX Design", "Digital Production", "Pharma Campaigns"],
       subType: "print",
@@ -492,7 +492,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "/Images/ATA_architecture.png",
+      image: "/Images/Thumbs/ata_thumb.png",
       video: "",
       categories: ["UI/UX Design", "Interactive & Web"],
       subType: "digital",
@@ -505,7 +505,7 @@ export const DATA = {
       dates: "2018",
       role: "Integrated Production Artist",
       team: "Pixacore",
-      image: "/Images/Thumbs/pthumbs10.png",
+      image: "/Images/Thumbs/vimizim_thumb.png",
       description: "Integrated production campaign for Vimizim (BioMarin). Created full clinical style guides and responsive HTML email templates.",
       technologies: ["Email Production", "Style Guides", "HTML/CSS", "Photoshop"],
       links: [
@@ -534,7 +534,7 @@ export const DATA = {
       dates: "2018",
       role: "Integrated Production Specialist",
       team: "Pixacore",
-      image: "/Images/Thumbs/pthumbs11.png",
+      image: "/Images/Thumbs/hemmobile_thumb.png",
       description: "Mobile application interface and digital logger production for Pfizer HemMobile, tracking infusion and bleed cycles.",
       technologies: ["Mobile Asset Production", "iOS/Android", "Illustrator"],
       links: [
@@ -558,7 +558,7 @@ export const DATA = {
       dates: "2018",
       role: "Interactive Production Specialist",
       team: "Pixacore",
-      image: "/Images/Thumbs/pthumbs12.png",
+      image: "/Images/Thumbs/ingrezza_thumb.png",
       description: "HCP interactive iPad presentations (iVA) and email campaigns built for the brand launch of Ingrezza.",
       technologies: ["iPad Presentation (iVA)", "Veeva Systems", "InDesign"],
       links: [
@@ -582,7 +582,7 @@ export const DATA = {
       dates: "2018",
       role: "Motion Designer / Production Artist",
       team: "Medallion Associates",
-      image: "/Images/Thumbs/pthumbs13.png",
+      image: "/Images/Thumbs/jbl_thumb.png",
       description: "Subway kiosk motion graphics banner and out-of-home video banner featuring Aaron Judge.",
       technologies: ["Motion Graphics", "After Effects", "OOH Advertising"],
       links: [
@@ -601,7 +601,7 @@ export const DATA = {
       dates: "2018",
       role: "Large Format Print Production Artist",
       team: "Pixacore",
-      image: "/Images/Thumbs/pthumbs14.png",
+      image: "/Images/Thumbs/ultragenx_thumb.png",
       description: "OOH exhibit stand, backlit displays, and podium layouts for Ultragenx convention booth.",
       technologies: ["Large Format Print", "Exhibition Design", "Illustrator"],
       links: [
@@ -630,7 +630,7 @@ export const DATA = {
       dates: "2017",
       role: "Large Format Print Production Artist",
       team: "Pixacore",
-      image: "/Images/Thumbs/pthumbs15.png",
+      image: "/Images/Thumbs/votrient_thumb.png",
       description: "Convention exhibition panels for Votrient STS ASCO conference presentation.",
       technologies: ["Large Format Print", "Exhibition Design", "Illustrator"],
       links: [
@@ -654,7 +654,7 @@ export const DATA = {
       dates: "2017",
       role: "Production Artist",
       team: "Regan Campbell Ward McCann",
-      image: "/Images/Thumbs/pthumbs12.png",
+      image: "/Images/Thumbs/tasigna_thumb.png",
       description: "Print newsletter production for 'Tasigna Tips' internal campaign, and clinical messaging guides.",
       technologies: ["Print Production", "Layout Design", "InDesign"],
       links: [
@@ -678,7 +678,7 @@ export const DATA = {
       dates: "2017",
       role: "Production Artist",
       team: "Regan Campbell Ward McCann",
-      image: "/Images/Thumbs/pthumbs13.png",
+      image: "/Images/Thumbs/afinitor_thumb.png",
       description: "Print production for the Afinitor October Newsletter and B2B clinical flashcards.",
       technologies: ["Print Production", "Layout Design", "InDesign"],
       links: [
@@ -779,7 +779,7 @@ export const DATA = {
       dates: "2022",
       role: "Digital Production Specialist",
       team: "Pixacore",
-      image: "/Images/Kesimpta/KESIMPTA_1.png",
+      image: "/Images/Thumbs/kesimpta_thumb.png",
       description: "Digital email marketing campaign layouts for Kesimpta (Novartis), including fully responsive brand and patient communications templates.",
       technologies: ["Email Production", "HTML/CSS", "Photoshop", "Pharma Campaigns"],
       links: [
@@ -803,7 +803,7 @@ export const DATA = {
       dates: "2020",
       role: "Studio Manager",
       team: "TBWA \\ Chiat \\ Day",
-      image: "/Images/TBWA/Screen Shot 2020-01-20 at 4.40.25 PM.png",
+      image: "/Images/Thumbs/tbwa_thumb.png",
       description: "Interactive UI wireframes, sitemaps, and user journey maps for telecom and branding client websites.",
       technologies: ["UI/UX Design", "Wireframing", "Information Architecture"],
       links: [
