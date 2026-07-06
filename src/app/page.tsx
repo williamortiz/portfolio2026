@@ -155,6 +155,28 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <section id="languages">
+        <div className="flex min-h-0 flex-col gap-y-6">
+          <BlurFade delay={BLUR_FADE_DELAY * 8.7}>
+            <h2 className="text-xl font-bold">Languages</h2>
+          </BlurFade>
+          <div className="flex flex-col gap-3">
+            {DATA.languages.map((lang, index) => (
+              <BlurFade
+                key={lang.name}
+                delay={BLUR_FADE_DELAY * 9.2 + index * 0.05}
+              >
+                <div className="flex items-center gap-x-3 text-sm text-muted-foreground">
+                  <div className="size-2 rounded-full bg-foreground/50 flex-none" />
+                  <span>
+                    <strong>{lang.name}</strong> — {lang.level}
+                  </span>
+                </div>
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-4">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>

@@ -176,9 +176,37 @@ export const DATA = {
     { name: "Google UX Design Professional Certificate (2023)" },
     { name: "Architecting with Google Compute Engine (2020)" },
     { name: "Security in Google Cloud (2019)" },
-    { name: "Building Web Applications in PHP (2019)" }
+    { name: "Building Web Applications in PHP (2019)" },
+    { name: "Blasting Off with Bootstrap - Code School (2015)" },
+    { name: "Try Git - Code School (2015)" },
+    { name: "JavaScript Road Trip Part 1 - Code School (2015)" },
+    { name: "Fundamentals of Design - Code School (2014)" },
+    { name: "Assembling Sass - Code School (2014)" },
+    { name: "Assembling Sass Part 2 - Code School (2014)" },
+    { name: "CSS Cross-Country - Code School (2014)" },
+    { name: "Journey Into Mobile - Code School (2014)" },
+    { name: "Front-end Formations - Code School (2014)" },
+    { name: "Front-end Foundations - Code School (2014)" }
+  ],
+  languages: [
+    { name: "Spanish", level: "Native / Bilingual" }
   ],
   projects: [
+    {
+      title: "EdinaKolozsi-Heath Styling",
+      href: "#",
+      dates: "2012",
+      active: true,
+      description:
+        "Designed and developed a responsive HTML5 and CSS3 portfolio website with an interactive image slider for fashion stylist Edina Kolozsi-Heath. Built using the Skeleton boilerplate and Dreamweaver CS6.",
+      technologies: ["Web Design", "HTML5", "CSS3", "Skeleton Boilerplate", "Dreamweaver"],
+      links: [],
+      image: "/Images/Thumbs/edina_styling_thumb.jpg",
+      video: "",
+      categories: ["UI/UX Design", "Interactive & Web"],
+      subType: "website",
+      year: 2012
+    },
     {
       title: "One Shot Records Marketplace",
       href: "https://www.oneshotrecords.com/",
