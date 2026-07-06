@@ -75,7 +75,7 @@ export const DATA = {
       badges: [],
       location: "New York, NY",
       title: "Senior Art Director Digital Production",
-      logoUrl: "/Images/logos/pixacore.svg",
+      logoUrl: "/Images/logos/pixacore.png",
       start: "Jan 2022",
       end: "Dec 2022",
       description:
