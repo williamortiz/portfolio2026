@@ -282,8 +282,7 @@ export const DATA = {
     { name: "Assembling Sass Part 2 - Code School (2014)" },
     { name: "CSS Cross-Country - Code School (2014)" },
     { name: "Journey Into Mobile - Code School (2014)" },
-    { name: "Front-end Formations - Code School (2014)" },
-    { name: "Front-end Foundations - Code School (2014)" }
+    { name: "Front-end Formations - Code School (2014)" }
   ],
   languages: [
     { name: "Spanish", level: "Native / Bilingual" }
