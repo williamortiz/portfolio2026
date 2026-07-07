@@ -58,6 +58,78 @@ export const DATA = {
   },
   work: [
     {
+      company: "Ortiz Design and Production",
+      href: "#",
+      badges: ["Contract"],
+      location: "New York, NY (Remote)",
+      title: "Senior Art Director & Senior Production Artist",
+      logoUrl: "/Images/logos/ortiz.jpg",
+      start: "Jan 2023",
+      end: "Present",
+      description:
+        "• Executed precise edits across massive digital design systems in Figma and ADS for Inizio Evoke, directly eliminating production bottlenecks and maintaining strict brand standards.\n• Directed the digital production and migration of over 500 content pages from two disparate websites into unified templates for TinyWins.\n• Instituted a highly detailed tracking system to identify inconsistencies in copy, media, and design across complex medical devices and educational materials.\n• Managed digital production, asset optimization, and preflight quality control for interactive trade show kiosks at Bigtincan, ensuring complete visual fidelity across all screens.\n• Designed and edited print and digital sales assets for GSK, placing a strict focus on continuous content updates and rigorous quality control."
+    },
+    {
+      company: "Pixacore",
+      href: "#",
+      badges: [],
+      location: "New York, NY",
+      title: "Senior Art Director, Digital Production",
+      logoUrl: "/Images/logos/pixacore.png",
+      start: "Jan 2022",
+      end: "Dec 2022",
+      description:
+        "• Directed the end-to-end design and development of over 15 high-fidelity, responsive websites, utilizing Figma, Sketch, and Adobe XD to deliver polished pharmaceutical digital experiences.\n• Provided UI/UX design and art direction for the Iovance Pharmaceutical website, ensuring a modern, responsive user experience.\n• Improved content hierarchy and navigation for a Bayer Pharmaceutical digital experience to support faster user discovery.\n• Designed and directed UX patterns for the Blueprint Med Info Platform, managing heavy content loads for a highly technical information portal.\n• Crafted responsive UI and visual direction for the Vitrakvi HCP web experience, directly targeting healthcare professionals.\n• Delivered polished digital production assets for BMS, focusing on performance-minded execution across platforms.\n• Implemented highly detailed UI specifications and interaction models in Zeplin to radically streamline developer workflows, dropping overall production time by 20 percent."
+    },
+    {
+      company: "Merck",
+      href: "#",
+      badges: [],
+      location: "Rahway, NJ",
+      title: "Digital Designer & Senior Production Artist",
+      logoUrl: "/Images/logos/merck.png",
+      start: "Apr 2021",
+      end: "Mar 2022",
+      description:
+        "• Engineered a vast array of high-quality digital assets for websites, applications, and advertisements to consistently surpass rigorous client expectations.\n• Seamlessly managed and submitted critical commercial materials utilizing Veeva Promomats to ensure absolute brand compliance.\n• Maintained a flawless standard of excellence across all diverse digital platforms by translating complex creative briefs into impactful visual experiences."
+    },
+    {
+      company: "TBWA / WorldHealth Wildtype",
+      href: "#",
+      badges: [],
+      location: "New York, NY",
+      title: "Graphic Artist & Senior Production Artist",
+      logoUrl: "/Images/logos/tbwa.jpg",
+      start: "Sep 2018",
+      end: "Oct 2019",
+      description:
+        "• Delivered high-quality print and digital materials while managing content to enforce absolute brand consistency.\n• Instituted a rigorous quality control process covering editing, screen captures, asset slicing, and photo rights management.\n• Routed content within Assembler CMS to streamline data flow across the agency."
+    },
+    {
+      company: "JUICE Pharma Worldwide",
+      href: "#",
+      badges: [],
+      location: "New York, NY",
+      title: "Graphic Artist & Senior Production Artist",
+      logoUrl: "/Images/logos/juice.jpg",
+      start: "Oct 2015",
+      end: "Nov 2017",
+      description:
+        "• Created detailed layouts, mechanicals, and mockups that perfectly aligned with stakeholder expectations.\n• Managed strict preflight procedures for all physical materials to ensure completely error-free final print production.\n• Eliminated ambiguity during the digital development phase by streamlining developer handoffs with precise specifications and style guides in Zeplin and Avocado."
+    },
+    {
+      company: "PrestoSports",
+      href: "#",
+      badges: [],
+      location: "New York, NY",
+      title: "Web Designer",
+      logoUrl: "/Images/logos/prestosports.png",
+      start: "May 2015",
+      end: "Oct 2015",
+      description:
+        "• Designed and launched up to 20 monthly collegiate websites, managing the complete process from initial ideation to final deployment on WordPress."
+    },
+    {
       company: "One Shot Records Inc.",
       href: "#",
       badges: [],
@@ -67,43 +139,7 @@ export const DATA = {
       start: "Jan 2012",
       end: "Present",
       description:
-        "As a UI designer and Google-certified architect with experience in user-centered design practices, information architecture, and service design, I bring a unique skill set to the table. I have expertise in creating prototypes, wireframes, user journey maps, and designing user interfaces, as well as advising on UX research plans and supporting engineering teams during development.",
-    },
-    {
-      company: "Pixacore",
-      href: "#",
-      badges: [],
-      location: "New York, NY",
-      title: "Senior Art Director Digital Production",
-      logoUrl: "/Images/logos/pixacore.png",
-      start: "Jan 2022",
-      end: "Dec 2022",
-      description:
-        "As a Senior Art Director for Digital Production, my team and I specialize in designing and producing top-notch digital web products, including fully responsive websites, emails, and various digital assets. Our expertise in utilizing online tools such as Figma, Sketch, and Adobe XD allows us to create visually stunning user interfaces, and our Zeplin release process ensures a smooth hand-off to developers, with thorough post-review and quality control to deliver optimal results.",
-    },
-    {
-      company: "Merck",
-      href: "#",
-      badges: [],
-      location: "New York, NY",
-      title: "Digital Designer",
-      logoUrl: "/Images/logos/merck.png",
-      start: "Apr 2021",
-      end: "Feb 2022",
-      description:
-        "As a Digital Designer and Senior Production Artist, my main focus is creating high-quality digital assets for various graphics projects, based on client-driven creative briefs. These projects encompass a wide range of mediums, including websites, mobile apps, advertising, animation, emails, and social media, as well as Promomats/Veeva layout and submissions. I pride myself on my ability to take a concept and turn it into a visually stunning reality, using my expertise in design and production to bring ideas to life.",
-    },
-    {
-      company: "Presto Sports",
-      href: "#",
-      badges: [],
-      location: "Remote",
-      title: "Web Designer",
-      logoUrl: "/Images/logos/prestosports.png",
-      start: "2015",
-      end: "2015",
-      description:
-        "Designed responsive athletics websites and portals for academic clients, including Rockford University and Crandall University.",
+        "As a UI designer and Google-certified architect with experience in user-centered design practices, information architecture, and service design, I bring a unique skill set to the table. I have expertise in creating prototypes, wireframes, user journey maps, and designing user interfaces, as well as advising on UX research plans and supporting engineering teams during development."
     },
     {
       company: "Global Hue",
@@ -115,7 +151,7 @@ export const DATA = {
       start: "2008",
       end: "2008",
       description:
-        "Managed the production studio and created premium high-resolution print mechanicals and assets for clients like Verizon and AT&T.",
+        "Managed the production studio and created premium high-resolution print mechanicals and assets for clients like Verizon and AT&T."
     },
     {
       company: "Regan, Campbell, Ward and McCann",
@@ -127,7 +163,7 @@ export const DATA = {
       start: "2005",
       end: "2005",
       description:
-        "Led print production efforts and quality assurance for prominent pharmaceutical accounts including Allergan, Novartis, and Genentech.",
+        "Led print production efforts and quality assurance for prominent pharmaceutical accounts including Allergan, Novartis, and Genentech."
     },
     {
       company: "The Sloan Group",
@@ -139,7 +175,7 @@ export const DATA = {
       start: "1999",
       end: "1999",
       description:
-        "Produced complex print materials and advertisements for major entertainment and media clients including Nickelodeon.",
+        "Produced complex print materials and advertisements for major entertainment and media clients including Nickelodeon."
     },
     {
       company: "Medallion Associates",
@@ -151,14 +187,14 @@ export const DATA = {
       start: "1995",
       end: "1995",
       description:
-        "Oversaw print production quality control processes, ensuring alignment with brand standards for clients like Dunkin' Donuts and Kinney Shoes.",
+        "Oversaw print production quality control processes, ensuring alignment with brand standards for clients like Dunkin' Donuts and Kinney Shoes."
     }
   ],
   education: [
     {
       school: "CUNY New York City College of Technology",
       href: "#",
-      degree: "Bachelor's Degree of Computer Science",
+      degree: "BFA, Communication Design (Bachelor of Fine Arts)",
       logoUrl: "/Images/logos/cuny.svg",
       start: "1986",
       end: "1990",
@@ -166,7 +202,7 @@ export const DATA = {
     {
       school: "Santa Monica College",
       href: "#",
-      degree: "Vocational Degree, Print Production",
+      degree: "Vocational Certification, Print Production & Darkroom Technician",
       logoUrl: "/Images/logos/smc.svg",
       start: "1990",
       end: "1991",
@@ -213,7 +249,30 @@ export const DATA = {
       name: "Start the UX Design Process: Empathize, Define, and Ideate - Google (2022)",
       href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
     },
-    { name: "Security in Google Cloud (2019)" },
+    {
+      name: "Reliable Google Cloud Infrastructure - Google Cloud (Coursera)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "Elastic Google Cloud Infrastructure - Google Cloud (Coursera)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "Essential Google Cloud Infrastructure - Google Cloud (Coursera)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "End-to-End Machine Learning with TensorFlow on GCP - Google Cloud (Coursera)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "Introduction to Structured Query Language - Coursera",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "Managing Security in Google Cloud Platform - Google Cloud (Coursera)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
     { name: "Building Web Applications in PHP (2019)" },
     { name: "Blasting Off with Bootstrap - Code School (2015)" },
     { name: "Try Git - Code School (2015)" },
