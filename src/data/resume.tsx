@@ -214,10 +214,6 @@ export const DATA = {
       href: "https://www.coursera.org/account/accomplishments/professional-cert/certificate/3M746PVDWQYS"
     },
     {
-      name: "Architecting with Google Compute Engine Specialization - Google Cloud (2020)",
-      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
-    },
-    {
       name: "Introduction to AI - Google (2025)",
       href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
     },
@@ -250,30 +246,37 @@ export const DATA = {
       href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
     },
     {
-      name: "Reliable Google Cloud Infrastructure - Google Cloud (Coursera)",
+      name: "Architecting with Google Compute Engine Specialization - Google Cloud (2020)",
       href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
     },
     {
-      name: "Elastic Google Cloud Infrastructure - Google Cloud (Coursera)",
+      name: "Reliable Google Cloud Infrastructure - Google Cloud (2020)",
       href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
     },
     {
-      name: "Essential Google Cloud Infrastructure - Google Cloud (Coursera)",
+      name: "Elastic Google Cloud Infrastructure - Google Cloud (2020)",
       href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
     },
     {
-      name: "End-to-End Machine Learning with TensorFlow on GCP - Google Cloud (Coursera)",
+      name: "Essential Google Cloud Infrastructure - Google Cloud (2020)",
       href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
     },
     {
-      name: "Introduction to Structured Query Language - Coursera",
+      name: "End-to-End Machine Learning with TensorFlow on GCP - Google Cloud (2020)",
       href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
     },
     {
-      name: "Managing Security in Google Cloud Platform - Google Cloud (Coursera)",
+      name: "Introduction to Structured Query Language - Coursera (2020)",
       href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
     },
-    { name: "Building Web Applications in PHP (2019)" },
+    {
+      name: "Managing Security in Google Cloud Platform - Google Cloud (2020)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
+    {
+      name: "Building Web Applications in PHP - Coursera (2019)",
+      href: "https://www.coursera.org/my-learning?myLearningTab=CERTIFICATES"
+    },
     { name: "Blasting Off with Bootstrap - Code School (2015)" },
     { name: "Try Git - Code School (2015)" },
     { name: "JavaScript Road Trip Part 1 - Code School (2015)" },
