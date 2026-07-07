@@ -147,7 +147,7 @@ export const DATA = {
       badges: [],
       location: "New York, NY",
       title: "Studio Manager / Print Production Artist",
-      logoUrl: "/Images/logos/globalhue.svg",
+      logoUrl: "/Images/logos/globalhue.jpg",
       start: "2008",
       end: "2008",
       description:
@@ -159,7 +159,7 @@ export const DATA = {
       badges: [],
       location: "New York, NY",
       title: "Studio Manager / Print Production Artist",
-      logoUrl: "/Images/logos/rcwm.svg",
+      logoUrl: "/Images/logos/rcwm.jpg",
       start: "2005",
       end: "2005",
       description:
@@ -171,7 +171,7 @@ export const DATA = {
       badges: [],
       location: "New York, NY",
       title: "Print Production Artist",
-      logoUrl: "/Images/logos/sloan.svg",
+      logoUrl: "/Images/logos/sloan.jpg",
       start: "1999",
       end: "1999",
       description:
@@ -183,7 +183,7 @@ export const DATA = {
       badges: [],
       location: "New York, NY",
       title: "Quality Control / Print Production Artist",
-      logoUrl: "/Images/logos/medallion.svg",
+      logoUrl: "/Images/logos/medallion.jpg",
       start: "1995",
       end: "1995",
       description:
