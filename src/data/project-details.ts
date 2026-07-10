@@ -215,7 +215,6 @@ export const PROJECT_DETAILS: Record<string, ProjectDetail> = {
     year: "2025",
     description: "Designed a comprehensive patient treatment layout guide for Trodelvy (Gilead Sciences). Created multi-page digital layouts detailing safety profiles, dosage tables, and support resources for patients and caregivers.",
     images: [
-      "/Images/TRO_Patient_Treatment_Guide/1752670413823-a29ed99b-bad6-4a46-82d7-0194af9a4aed25 (1)_1.jpg",
       "/Images/TRO_Patient_Treatment_Guide/1752670413823-a29ed99b-bad6-4a46-82d7-0194af9a4aed25 (1)_2.jpg",
       "/Images/TRO_Patient_Treatment_Guide/1752670413823-a29ed99b-bad6-4a46-82d7-0194af9a4aed25 (1)_3.jpg",
       "/Images/TRO_Patient_Treatment_Guide/1752670413823-a29ed99b-bad6-4a46-82d7-0194af9a4aed25 (1)_4.jpg",
