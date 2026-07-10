@@ -7,6 +7,8 @@ export interface ProjectDetail {
   year: string;
   description: string;
   liveUrl?: string;
+  desktopDesigns?: string[];
+  mobileDesigns?: string[];
   desktopImages?: string[];
   mobileImages?: string[];
   images?: string[];
@@ -35,6 +37,12 @@ export const PROJECT_DETAILS: Record<string, ProjectDetail> = {
     year: "2022",
     description: "Full website refresh layout, including comprehensive desktop and mobile wireframes and site maps.",
     liveUrl: "https://www.iovance.com/",
+    desktopDesigns: [
+      "/Images/Iovance/desktop_designs/home_design.png"
+    ],
+    mobileDesigns: [
+      "/Images/Iovance/mobile_designs/home_design.png"
+    ],
     desktopImages: [
       "/Images/Iovance/desktop_wires/0.0 home.png",
       "/Images/Iovance/desktop_wires/1.1 about iovance bio-1.png",

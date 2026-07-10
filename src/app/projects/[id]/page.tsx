@@ -85,6 +85,61 @@ export default async function ProjectDetailPage({ params }: Props) {
       <div className="space-y-8">
         <h2 className="text-xl font-bold border-b pb-2">Wireframes & Design Files</h2>
 
+        {/* High-Fidelity Designs Section */}
+        {(project.desktopDesigns || project.mobileDesigns) && (
+          <div className="space-y-10 pb-8 border-b border-dashed">
+            <h3 className="text-lg font-semibold text-foreground/80">High-Fidelity UI/UX Designs</h3>
+            
+            {/* Desktop Designs */}
+            {project.desktopDesigns && project.desktopDesigns.length > 0 && (
+              <div className="space-y-6">
+                <div className="flex items-center gap-2">
+                  <Badge className="bg-emerald-600 text-white hover:bg-emerald-700">Desktop Design Layout</Badge>
+                  <div className="flex-1 h-px bg-border/40" />
+                </div>
+                <div className="flex flex-col gap-8 items-center">
+                  {project.desktopDesigns.map((src, index) => (
+                    <BlurFade key={`desktop-design-${index}`} delay={index * 0.05} className="w-full">
+                      <div className="relative group overflow-hidden rounded-2xl border bg-background shadow-md transition-all hover:shadow-lg">
+                        <img
+                          src={src}
+                          alt={`${project.title} Desktop Design ${index + 1}`}
+                          className="w-full h-auto object-contain max-h-[800px] mx-auto p-2"
+                          loading="lazy"
+                        />
+                      </div>
+                    </BlurFade>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Mobile Designs */}
+            {project.mobileDesigns && project.mobileDesigns.length > 0 && (
+              <div className="space-y-6">
+                <div className="flex items-center gap-2">
+                  <Badge className="bg-emerald-600 text-white hover:bg-emerald-700">Mobile Design Layout</Badge>
+                  <div className="flex-1 h-px bg-border/40" />
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
+                  {project.mobileDesigns.map((src, index) => (
+                    <BlurFade key={`mobile-design-${index}`} delay={index * 0.05}>
+                      <div className="relative group overflow-hidden rounded-2xl border bg-background shadow-md transition-all hover:shadow-lg flex items-center justify-center p-4">
+                        <img
+                          src={src}
+                          alt={`${project.title} Mobile Design ${index + 1}`}
+                          className="max-h-[600px] w-auto object-contain mx-auto"
+                          loading="lazy"
+                        />
+                      </div>
+                    </BlurFade>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
         {hasTabs ? (
           <div className="space-y-10">
             {/* Desktop Section */}
