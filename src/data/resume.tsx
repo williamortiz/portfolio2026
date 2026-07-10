@@ -563,27 +563,6 @@ export const DATA = {
       year: 2015
     },
     {
-      title: "Trodelvy Interactive Quiz",
-      href: "/projects/tro-truths",
-      dates: "2025",
-      active: true,
-      description:
-        "Designed an interactive clinical quiz website ('TRO Truths') for Trodelvy (Gilead Sciences) to test healthcare professional knowledge. Features a sleek responsive interface with mobile/desktop wireframes, instant results validation, and clinical trial reference popups.",
-      technologies: ["UI/UX Design", "Interactive Design", "Pharma Campaigns", "Figma", "Responsive Layouts"],
-      links: [
-        {
-          type: "Wireframes",
-          href: "/projects/tro-truths",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
-      image: "/Images/Thumbs/tro_truths_thumb.png",
-      video: "",
-      categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"],
-      subType: "website",
-      year: 2025
-    },
-    {
       title: "Trodelvy Patient Treatment Guide",
       href: "/projects/tro-patient-guide",
       dates: "2025",
