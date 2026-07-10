@@ -211,7 +211,7 @@ export const PROJECT_DETAILS: Record<string, ProjectDetail> = {
     title: "Trodelvy Patient Treatment Guide",
     client: "Gilead Sciences",
     role: "Print & Digital Production Artist",
-    team: "Pixacore",
+    team: "Inizio Evoke",
     year: "2025",
     description: "Designed a comprehensive patient treatment layout guide for Trodelvy (Gilead Sciences). Created multi-page digital layouts detailing safety profiles, dosage tables, and support resources for patients and caregivers.",
     images: [
