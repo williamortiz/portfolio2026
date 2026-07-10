@@ -591,7 +591,7 @@ export const DATA = {
     {
       title: "ATA Enterprise Architecture",
       href: "/assets/samples/ATA/ATA_architecture_v_1.6.pdf",
-      dates: "2024",
+      dates: "2020",
       active: true,
       description:
         "Technical systems architecture blueprint and design layout for enterprise application ecosystems.",
@@ -603,11 +603,11 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "/Images/Thumbs/ata_thumb.png",
+      image: "/Images/Thumbs/ata_thumb.jpg",
       video: "",
       categories: ["UI/UX Design", "Interactive & Web"],
       subType: "digital",
-      year: 2024
+      year: 2020
     }
   ],
   printProjects: [
