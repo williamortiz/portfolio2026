@@ -71,6 +71,30 @@ export const PROJECT_DETAILS: Record<string, ProjectDetail> = {
     year: "2022",
     description: "Detailed wireframes and sitemaps designed for Bayer's primary healthcare professional portal and patient information workflows.",
     liveUrl: "https://www.bayer.com/en/pharma/pharmaceuticals/",
+    desktopDesigns: [
+      "/Images/Bayer/desktop_designs/0.0 Home.png",
+      "/Images/Bayer/desktop_designs/0.1 Home_Carousel.png",
+      "/Images/Bayer/desktop_designs/1.1 Prostate Cancer.png",
+      "/Images/Bayer/desktop_designs/1.1.2 Prostate Cancer.png",
+      "/Images/Bayer/desktop_designs/1.2 Colorectal Cancer.png",
+      "/Images/Bayer/desktop_designs/1.2.2 Colorectal Cancer.png",
+      "/Images/Bayer/desktop_designs/1.3 Precision Oncology.png",
+      "/Images/Bayer/desktop_designs/1.3.2 Precision Oncology.png",
+      "/Images/Bayer/desktop_designs/2.0 Patient Safety.png",
+      "/Images/Bayer/desktop_designs/3.0 News & Events.png",
+      "/Images/Bayer/desktop_designs/4.0 Contact Us.png",
+      "/Images/Bayer/desktop_designs/Cookies Banner.png",
+      "/Images/Bayer/desktop_designs/Leaving the Site Modal.png",
+      "/Images/Bayer/desktop_designs/F4.0 Sitemap.png",
+      "/Images/Bayer/desktop_designs/F4.0 Sitemap_Expanded.png"
+    ],
+    mobileDesigns: [
+      "/Images/Bayer/mobile_designs/Mobile 0.0_Home.png",
+      "/Images/Bayer/mobile_designs/Mobile 0.0_Home_Carousel.png",
+      "/Images/Bayer/mobile_designs/Mobile 0.0_Home_Menu.png",
+      "/Images/Bayer/mobile_designs/Mobile 1.1 Prostate Cancer Mobile.png",
+      "/Images/Bayer/mobile_designs/Mobile 1.3 Precision Oncology.png"
+    ],
     images: [
       "/Images/Bayer/0.0 Home.png",
       "/Images/Bayer/1.1 Prostate Cancer.png",
