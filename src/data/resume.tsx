@@ -481,6 +481,11 @@ export const DATA = {
           type: "Live Site",
           href: "https://www.nashtippingpoint.com/",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Wireframes",
+          href: "/projects/intercept",
+          icon: <Icons.globe className="size-3" />,
         }
       ],
       image: "/Images/Thumbs/thumbs5.png",

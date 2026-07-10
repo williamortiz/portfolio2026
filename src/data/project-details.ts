@@ -221,5 +221,18 @@ export const PROJECT_DETAILS: Record<string, ProjectDetail> = {
       "/Images/TRO_Patient_Treatment_Guide/1752670413823-a29ed99b-bad6-4a46-82d7-0194af9a4aed25 (1)_4.jpg",
       "/Images/TRO_Patient_Treatment_Guide/1752670413823-a29ed99b-bad6-4a46-82d7-0194af9a4aed25 (1)_5.jpg"
     ]
+  },
+  intercept: {
+    id: "intercept",
+    title: "Intercept NASH Portal",
+    client: "Intercept Pharmaceuticals",
+    role: "Digital Asset Production",
+    team: "Pixacore",
+    year: "2022",
+    description: "Digital asset production and support for the Intercept NASH disease state awareness campaign portal, providing critical information layouts on advanced liver fibrosis.",
+    liveUrl: "https://www.nashtippingpoint.com/",
+    images: [
+      "/Images/intercept/home.png"
+    ]
   }
 };
