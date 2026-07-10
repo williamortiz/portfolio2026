@@ -187,19 +187,27 @@ export default async function ProjectDetailPage({ params }: Props) {
             </div>
           </div>
         ) : (
-          <div className="flex flex-col gap-8 items-center">
-            {project.images?.map((src, index) => (
-              <BlurFade key={`image-${index}`} delay={index * 0.05} className="w-full">
-                <div className="relative group overflow-hidden rounded-2xl border bg-background shadow-md transition-all hover:shadow-lg">
-                  <img
-                    src={src}
-                    alt={`${project.title} Image ${index + 1}`}
-                    className="w-full h-auto object-contain max-h-[600px] mx-auto p-2"
-                    loading="lazy"
-                  />
-                </div>
-              </BlurFade>
-            ))}
+          <div className="space-y-6">
+            {project.images && project.images.length > 0 && (
+              <div className="flex items-center gap-2">
+                <Badge className="bg-black text-white dark:bg-white dark:text-black hover:bg-black/90">Wireframes</Badge>
+                <div className="flex-1 h-px bg-border/40" />
+              </div>
+            )}
+            <div className="flex flex-col gap-8 items-center">
+              {project.images?.map((src, index) => (
+                <BlurFade key={`image-${index}`} delay={index * 0.05} className="w-full">
+                  <div className="relative group overflow-hidden rounded-2xl border bg-background shadow-md transition-all hover:shadow-lg">
+                    <img
+                      src={src}
+                      alt={`${project.title} Wireframe ${index + 1}`}
+                      className="w-full h-auto object-contain max-h-[600px] mx-auto p-2"
+                      loading="lazy"
+                    />
+                  </div>
+                </BlurFade>
+              ))}
+            </div>
           </div>
         )}
       </div>
