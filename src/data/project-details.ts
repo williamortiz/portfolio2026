@@ -113,6 +113,23 @@ export const PROJECT_DETAILS: Record<string, ProjectDetail> = {
     year: "2022",
     description: "High-fidelity UX design templates for medical information portals, congress presentations index, and clinical trials tracking workflows.",
     liveUrl: "https://www.blueprintmedinfo.com/",
+    desktopDesigns: [
+      "/Images/Blueprint/desktop_designs/Desktop - Home 1.1.0.png",
+      "/Images/Blueprint/desktop_designs/Desktop - Home 1.1.2.png",
+      "/Images/Blueprint/desktop_designs/Desktop - Congress Presentations 1.2.1.png",
+      "/Images/Blueprint/desktop_designs/Desktop - 1.2 Congress Publications.jpg",
+      "/Images/Blueprint/desktop_designs/Desktop - Clinical Trials.png",
+      "/Images/Blueprint/desktop_designs/Desktop - Clinical Trials - ALL LOGOS.png",
+      "/Images/Blueprint/desktop_designs/Desktop - CT and Access dropdown.png",
+      "/Images/Blueprint/desktop_designs/Desktop - Submit an inquiry 1.5.1.jpg"
+    ],
+    mobileDesigns: [
+      "/Images/Blueprint/mobile_designs/Mobile - Home 1.1.1.png",
+      "/Images/Blueprint/mobile_designs/Mobile - Home 1.1.1_MENU.jpg",
+      "/Images/Blueprint/mobile_designs/Mobile - Congress Presentations 1.2.1.jpg",
+      "/Images/Blueprint/mobile_designs/Mobile - Congress Presentations 1.2.1_Filter Drawer.jpg",
+      "/Images/Blueprint/mobile_designs/Mobile - Clinical Trials.jpg"
+    ],
     images: [
       "/Images/Blueprint/0.0. Search Medical Information (Home).png",
       "/Images/Blueprint/1.1 Congress Presentations.png",
