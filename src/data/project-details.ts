@@ -163,9 +163,6 @@ export const PROJECT_DETAILS: Record<string, ProjectDetail> = {
     year: "2022",
     description: "User experience maps, layout designs, and responsive wireframes for the Vitrakvi HCP web application on desktop and mobile screens.",
     liveUrl: "https://hcp.vitrakvi-us.com/",
-    desktopDesigns: [
-      "/Images/vitrakvi/desktop_designs/home_design.png"
-    ],
     desktopImages: [
       "/Images/vitrakvi/desktop/0.0 Home - full.png",
       "/Images/vitrakvi/desktop/2.3 Pediatric Data.png",
