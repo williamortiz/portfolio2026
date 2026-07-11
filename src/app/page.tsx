@@ -207,9 +207,9 @@ export default function Page() {
                   return (
                     <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 9.5 + id * 0.03}>
                       <Magnetic range={45} strength={0.2}>
-                        <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl h-8 w-fit px-4 flex items-center gap-2 cursor-pointer transition-transform duration-300">
+                        <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl min-h-8 w-fit px-4 py-1.5 flex items-center gap-2 cursor-pointer transition-transform duration-300">
                           {Icon && <Icon className="size-4 rounded overflow-hidden object-contain" />}
-                          <span className="text-foreground text-sm font-medium">{skill.name}</span>
+                          <span className="text-foreground text-sm font-medium leading-tight">{skill.name}</span>
                         </div>
                       </Magnetic>
                     </BlurFade>
@@ -231,9 +231,9 @@ export default function Page() {
                   return (
                     <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 9.6 + id * 0.03}>
                       <Magnetic range={45} strength={0.2}>
-                        <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl h-8 w-fit px-4 flex items-center gap-2 cursor-pointer transition-transform duration-300">
+                        <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl min-h-8 w-fit px-4 py-1.5 flex items-center gap-2 cursor-pointer transition-transform duration-300">
                           {Icon && <Icon className="size-4 rounded overflow-hidden object-contain" />}
-                          <span className="text-foreground text-sm font-medium">{skill.name}</span>
+                          <span className="text-foreground text-sm font-medium leading-tight">{skill.name}</span>
                         </div>
                       </Magnetic>
                     </BlurFade>
