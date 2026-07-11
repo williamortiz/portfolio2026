@@ -336,6 +336,46 @@ export const DATA = {
       year: 2024
     },
     {
+      title: "Motion Graphics Project 1 (Placeholder)",
+      href: "https://youtu.be/a0iV7e1boMc?si=_yEkOntbZTbJcbhc",
+      dates: "2024",
+      active: true,
+      description: "Placeholder description for motion graphics video project.",
+      technologies: ["Premiere Pro", "After Effects", "Photoshop"],
+      links: [
+        {
+          type: "Watch Video",
+          href: "https://youtu.be/a0iV7e1boMc?si=_yEkOntbZTbJcbhc",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "",
+      video: "",
+      categories: ["Motion Graphics"],
+      subType: "video",
+      year: 2024
+    },
+    {
+      title: "Motion Graphics Project 2 (Placeholder)",
+      href: "https://youtu.be/oDtMS2uGPhM?si=aFZ3hIB9HACECtLF",
+      dates: "2024",
+      active: true,
+      description: "Placeholder description for motion graphics video project.",
+      technologies: ["Premiere Pro", "After Effects", "Photoshop"],
+      links: [
+        {
+          type: "Watch Video",
+          href: "https://youtu.be/oDtMS2uGPhM?si=aFZ3hIB9HACECtLF",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "",
+      video: "",
+      categories: ["Motion Graphics"],
+      subType: "video",
+      year: 2024
+    },
+    {
       title: "EdinaKolozsi-Heath Styling",
       href: "#",
       dates: "2012",
