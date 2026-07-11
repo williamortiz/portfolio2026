@@ -34,10 +34,17 @@ export const DATA = {
       { name: "React & Next.js" },
       { name: "Bootstrap" },
       { name: "PHP" },
+      { name: "SQL (Structured Query Language)" },
       { name: "Google Cloud Platform" },
+      { name: "GCP Security & Architecture" },
+      { name: "TensorFlow & Machine Learning" },
+      { name: "Gemini AI" },
+      { name: "Nano Banana" },
+      { name: "Antigravity 2.0" },
       { name: "Generative AI & ComfyUI" },
       { name: "Prompt Engineering" },
-      { name: "Veeva Promomats" }
+      { name: "Veeva Promomats" },
+      { name: "Google Ads & Analytics" }
     ],
     hardware: [
       { name: "Interactive Trade Show Kiosks" },
