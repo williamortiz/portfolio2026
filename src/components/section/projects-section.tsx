@@ -13,8 +13,7 @@ const CATEGORIES = [
   "Interactive & Web",
   "Digital Production",
   "Print & Large Format",
-  "Pharma Campaigns",
-  "Motion Graphics"
+  "Pharma Campaigns"
 ] as const;
 
 type Category = typeof CATEGORIES[number];

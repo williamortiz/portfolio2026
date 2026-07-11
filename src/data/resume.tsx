@@ -316,66 +316,6 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Ballot Battle 2014",
-      href: "https://youtu.be/WHR3MmoDY48?si=wtgRVUpahhJNu_78",
-      dates: "2024",
-      active: true,
-      description: "Get out the vote Short.",
-      technologies: ["Premiere Pro", "Photoshop"],
-      links: [
-        {
-          type: "Watch Video",
-          href: "https://youtu.be/WHR3MmoDY48?si=wtgRVUpahhJNu_78",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
-      image: "/Images/Thumbs/vote_2024.png",
-      video: "",
-      categories: ["Motion Graphics"],
-      subType: "video",
-      year: 2024
-    },
-    {
-      title: "Motion Graphics Project 1 (Placeholder)",
-      href: "https://youtu.be/a0iV7e1boMc?si=_yEkOntbZTbJcbhc",
-      dates: "2024",
-      active: true,
-      description: "Placeholder description for motion graphics video project.",
-      technologies: ["Premiere Pro", "After Effects", "Photoshop"],
-      links: [
-        {
-          type: "Watch Video",
-          href: "https://youtu.be/a0iV7e1boMc?si=_yEkOntbZTbJcbhc",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
-      image: "",
-      video: "",
-      categories: ["Motion Graphics"],
-      subType: "video",
-      year: 2024
-    },
-    {
-      title: "Motion Graphics Project 2 (Placeholder)",
-      href: "https://youtu.be/oDtMS2uGPhM?si=aFZ3hIB9HACECtLF",
-      dates: "2024",
-      active: true,
-      description: "Placeholder description for motion graphics video project.",
-      technologies: ["Premiere Pro", "After Effects", "Photoshop"],
-      links: [
-        {
-          type: "Watch Video",
-          href: "https://youtu.be/oDtMS2uGPhM?si=aFZ3hIB9HACECtLF",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
-      image: "",
-      video: "",
-      categories: ["Motion Graphics"],
-      subType: "video",
-      year: 2024
-    },
-    {
       title: "EdinaKolozsi-Heath Styling",
       href: "#",
       dates: "2012",
@@ -692,6 +632,68 @@ export const DATA = {
       categories: ["UI/UX Design", "Interactive & Web"],
       subType: "digital",
       year: 2020
+    }
+  ],
+  motionGraphics: [
+    {
+      title: "Ballot Battle 2014",
+      href: "https://youtu.be/WHR3MmoDY48?si=wtgRVUpahhJNu_78",
+      dates: "2024",
+      active: true,
+      description: "Get out the vote Short.",
+      technologies: ["Premiere Pro", "Photoshop"],
+      links: [
+        {
+          type: "Watch Video",
+          href: "https://youtu.be/WHR3MmoDY48?si=wtgRVUpahhJNu_78",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/Images/Thumbs/vote_2024.png",
+      video: "",
+      categories: ["Motion Graphics"],
+      subType: "video",
+      year: 2024
+    },
+    {
+      title: "Motion Graphics Project 1 (Placeholder)",
+      href: "https://youtu.be/a0iV7e1boMc?si=_yEkOntbZTbJcbhc",
+      dates: "2024",
+      active: true,
+      description: "Placeholder description for motion graphics video project.",
+      technologies: ["Premiere Pro", "After Effects", "Photoshop"],
+      links: [
+        {
+          type: "Watch Video",
+          href: "https://youtu.be/a0iV7e1boMc?si=_yEkOntbZTbJcbhc",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "",
+      video: "",
+      categories: ["Motion Graphics"],
+      subType: "video",
+      year: 2024
+    },
+    {
+      title: "Motion Graphics Project 2 (Placeholder)",
+      href: "https://youtu.be/oDtMS2uGPhM?si=aFZ3hIB9HACECtLF",
+      dates: "2024",
+      active: true,
+      description: "Placeholder description for motion graphics video project.",
+      technologies: ["Premiere Pro", "After Effects", "Photoshop"],
+      links: [
+        {
+          type: "Watch Video",
+          href: "https://youtu.be/oDtMS2uGPhM?si=aFZ3hIB9HACECtLF",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "",
+      video: "",
+      categories: ["Motion Graphics"],
+      subType: "video",
+      year: 2024
     }
   ],
   printProjects: [

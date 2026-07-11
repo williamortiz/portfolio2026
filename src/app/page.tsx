@@ -11,6 +11,7 @@ import Markdown from "react-markdown";
 import ContactSection from "@/components/section/contact-section";
 import ArtGallerySection from "@/components/section/art-gallery-section";
 import ProjectsSection from "@/components/section/projects-section";
+import MotionGraphicsSection from "@/components/section/motion-graphics-section";
 import WorkSection from "@/components/section/work-section";
 import { ArrowUpRight } from "lucide-react";
 import { Magnetic } from "@/components/magnetic";
@@ -252,6 +253,11 @@ export default function Page() {
       <section id="generative-art">
         <BlurFade delay={BLUR_FADE_DELAY * 13}>
           <ArtGallerySection />
+        </BlurFade>
+      </section>
+      <section id="motion-graphics">
+        <BlurFade delay={BLUR_FADE_DELAY * 14.5}>
+          <MotionGraphicsSection />
         </BlurFade>
       </section>
       <section id="contact">
