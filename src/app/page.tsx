@@ -189,24 +189,58 @@ export default function Page() {
         </div>
       </section>
       <section id="skills">
-        <div className="flex min-h-0 flex-col gap-y-4">
+        <div className="flex min-h-0 flex-col gap-y-6">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
-          <div className="flex flex-wrap gap-2">
-            {DATA.skills.map((skill, id) => {
-              const Icon = (skill as any).icon;
-              return (
-                <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                  <Magnetic range={45} strength={0.2}>
-                    <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl h-8 w-fit px-4 flex items-center gap-2 cursor-pointer transition-transform duration-300">
-                      {Icon && <Icon className="size-4 rounded overflow-hidden object-contain" />}
-                      <span className="text-foreground text-sm font-medium">{skill.name}</span>
-                    </div>
-                  </Magnetic>
-                </BlurFade>
-              );
-            })}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Software & Systems */}
+            <div className="flex flex-col gap-y-3">
+              <BlurFade delay={BLUR_FADE_DELAY * 9.2}>
+                <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                  Software & Platforms
+                </h3>
+              </BlurFade>
+              <div className="flex flex-wrap gap-2">
+                {DATA.skills.software.map((skill, id) => {
+                  const Icon = (skill as any).icon;
+                  return (
+                    <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 9.5 + id * 0.03}>
+                      <Magnetic range={45} strength={0.2}>
+                        <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl h-8 w-fit px-4 flex items-center gap-2 cursor-pointer transition-transform duration-300">
+                          {Icon && <Icon className="size-4 rounded overflow-hidden object-contain" />}
+                          <span className="text-foreground text-sm font-medium">{skill.name}</span>
+                        </div>
+                      </Magnetic>
+                    </BlurFade>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Hardware & Physical Systems */}
+            <div className="flex flex-col gap-y-3">
+              <BlurFade delay={BLUR_FADE_DELAY * 9.3}>
+                <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                  Hardware & Physical Systems
+                </h3>
+              </BlurFade>
+              <div className="flex flex-wrap gap-2">
+                {DATA.skills.hardware.map((skill, id) => {
+                  const Icon = (skill as any).icon;
+                  return (
+                    <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 9.6 + id * 0.03}>
+                      <Magnetic range={45} strength={0.2}>
+                        <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl h-8 w-fit px-4 flex items-center gap-2 cursor-pointer transition-transform duration-300">
+                          {Icon && <Icon className="size-4 rounded overflow-hidden object-contain" />}
+                          <span className="text-foreground text-sm font-medium">{skill.name}</span>
+                        </div>
+                      </Magnetic>
+                    </BlurFade>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
       </section>
