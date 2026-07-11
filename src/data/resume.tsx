@@ -316,6 +316,26 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Ballot Battle 2014",
+      href: "https://youtu.be/WHR3MmoDY48?si=wtgRVUpahhJNu_78",
+      dates: "2024",
+      active: true,
+      description: "Get out the vote Short.",
+      technologies: ["Premiere Pro", "Photoshop"],
+      links: [
+        {
+          type: "Watch Video",
+          href: "https://youtu.be/WHR3MmoDY48?si=wtgRVUpahhJNu_78",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/Images/Thumbs/vote_2024.png",
+      video: "",
+      categories: ["Motion Graphics"],
+      subType: "video",
+      year: 2024
+    },
+    {
       title: "EdinaKolozsi-Heath Styling",
       href: "#",
       dates: "2012",
