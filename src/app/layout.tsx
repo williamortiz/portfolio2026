@@ -27,6 +27,23 @@ export const metadata: Metadata = {
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
+  keywords: [
+    "William Ortiz",
+    "UI/UX Designer",
+    "Front-End Developer",
+    "Digital Production Art",
+    "Figma Design Systems",
+    "Generative AI & ComfyUI",
+    "Motion Graphics & Video Editing",
+    "New York Creative Director",
+    "Veeva Promomats",
+    "ADA Accessibility Compliance"
+  ],
+  authors: [{ name: DATA.name, url: DATA.url }],
+  creator: DATA.name,
+  alternates: {
+    canonical: DATA.url,
+  },
   openGraph: {
     title: `${DATA.name}`,
     description: DATA.description,
@@ -34,6 +51,14 @@ export const metadata: Metadata = {
     siteName: `${DATA.name}`,
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: `${DATA.name} Portfolio`,
+      },
+    ],
   },
   robots: {
     index: true,
@@ -48,7 +73,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: `${DATA.name}`,
+    description: DATA.description,
     card: "summary_large_image",
+    images: ["/opengraph-image"],
   },
   verification: {
     google: "",
