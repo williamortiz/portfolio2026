@@ -194,7 +194,31 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="flex flex-col gap-y-8">
+            {/* Human */}
+            <div className="flex flex-col gap-y-3">
+              <BlurFade delay={BLUR_FADE_DELAY * 9.1}>
+                <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                  Human
+                </h3>
+              </BlurFade>
+              <div className="flex flex-wrap gap-2">
+                {DATA.skills.human?.map((skill, id) => {
+                  const Icon = (skill as any).icon;
+                  return (
+                    <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 9.4 + id * 0.03}>
+                      <Magnetic range={45} strength={0.2}>
+                        <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl min-h-8 w-fit px-4 py-1.5 flex items-center gap-2 cursor-pointer transition-transform duration-300">
+                          {Icon && <Icon className="size-4 rounded overflow-hidden object-contain" />}
+                          <span className="text-foreground text-sm font-medium leading-tight">{skill.name}</span>
+                        </div>
+                      </Magnetic>
+                    </BlurFade>
+                  );
+                })}
+              </div>
+            </div>
+
             {/* Software & Systems */}
             <div className="flex flex-col gap-y-3">
               <BlurFade delay={BLUR_FADE_DELAY * 9.2}>

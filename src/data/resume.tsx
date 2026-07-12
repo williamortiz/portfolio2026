@@ -15,6 +15,16 @@ export const DATA = {
     "I am an experienced senior professional with a diverse background in digital, print, and web development. With years of experience in the industry, I have honed my skills in designing, developing, and managing projects across various platforms. Alongside my professional work, I actively explore generative AI tools through conceptual and experimental projects. This includes prompt engineering and hands-on experimentation with tools such as Imagen 4, Gemini, Nano Banana, loraAi, and ComfyUI, allowing me to stay current with emerging technologies and evolving creative workflows.",
   avatarUrl: "/Images/william_portrait_2.jpeg",
   skills: {
+    human: [
+      { name: "Art Direction & Creative Strategy" },
+      { name: "Cross-Functional Team Leadership" },
+      { name: "Studio & Operations Management" },
+      { name: "Staff Delegation & Mentorship" },
+      { name: "Client & Stakeholder Communication" },
+      { name: "Scope & Timeline Negotiation" },
+      { name: "Design-to-Development Continuity" },
+      { name: "User Advocacy & Accessibility" }
+    ],
     software: [
       { name: "UI/UX Design" },
       { name: "Front-End Development" },
