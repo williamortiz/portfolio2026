@@ -725,11 +725,6 @@ export const DATA = {
           type: "Brand Email",
           href: "/assets/samples/Emails/Vimizim_BioMarin_Email.pdf",
           icon: <Icons.globe className="size-3" />
-        },
-        {
-          type: "Patient Email (Drive)",
-          href: "https://drive.google.com/drive/folders/1P358bpblYOgG6W4ycedqWTDaBV12ik8V",
-          icon: <Icons.globe className="size-3" />
         }
       ],
       categories: ["Print & Large Format", "Digital Production", "Pharma Campaigns"],
@@ -744,18 +739,7 @@ export const DATA = {
       image: "/Images/Thumbs/hemmobile_thumb.png",
       description: "Mobile application interface and digital logger production for Pfizer HemMobile, tracking infusion and bleed cycles.",
       technologies: ["Mobile Asset Production", "iOS/Android", "Illustrator"],
-      links: [
-        {
-          type: "iOS Assets (Drive)",
-          href: "https://drive.google.com/drive/folders/1P358bpblYOgG6W4ycedqWTDaBV12ik8V",
-          icon: <Icons.globe className="size-3" />
-        },
-        {
-          type: "Android Assets (Drive)",
-          href: "https://drive.google.com/drive/folders/1P358bpblYOgG6W4ycedqWTDaBV12ik8V",
-          icon: <Icons.globe className="size-3" />
-        }
-      ],
+      links: [],
       categories: ["Digital Production", "Pharma Campaigns"],
       subType: "digital",
       year: 2018
@@ -818,11 +802,6 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />
         },
         {
-          type: "Backlit Wall (Drive)",
-          href: "https://drive.google.com/drive/folders/1P358bpblYOgG6W4ycedqWTDaBV12ik8V",
-          icon: <Icons.globe className="size-3" />
-        },
-        {
           type: "Flashcard",
           href: "/assets/samples/Print/Ultragenx_flashcard.pdf",
           icon: <Icons.globe className="size-3" />
@@ -841,11 +820,6 @@ export const DATA = {
       description: "Convention exhibition panels for Votrient STS ASCO conference presentation.",
       technologies: ["Large Format Print", "Exhibition Design", "Illustrator"],
       links: [
-        {
-          type: "ASCO Panels (Drive)",
-          href: "https://drive.google.com/drive/folders/1P358bpblYOgG6W4ycedqWTDaBV12ik8V",
-          icon: <Icons.globe className="size-3" />
-        },
         {
           type: "Patient Brochure",
           href: "/assets/samples/Print/%20Votrient%20Patient%20Brochure%20PDF.pdf",
