@@ -733,8 +733,8 @@ export const DATA = {
   printProjects: [
     {
       title: "BioMarin Vimizim Campaign",
-      dates: "2018",
-      role: "Integrated Production Artist",
+      dates: "2022",
+      role: "Senior Art Director, Digital Production",
       team: "Pixacore",
       image: "/Images/Thumbs/vimizim_thumb.png",
       description: "Integrated production campaign for Vimizim (BioMarin). Created full clinical style guides and responsive HTML email templates.",
@@ -753,12 +753,12 @@ export const DATA = {
       ],
       categories: ["Print & Large Format", "Digital Production", "Pharma Campaigns"],
       subType: "digital",
-      year: 2018
+      year: 2022
     },
     {
       title: "Pfizer HemMobile App",
-      dates: "2018",
-      role: "Integrated Production Specialist",
+      dates: "2022",
+      role: "Senior Art Director, Digital Production",
       team: "Pixacore",
       image: "/Images/Thumbs/hemmobile_thumb.png",
       description: "Mobile application interface and digital logger production for Pfizer HemMobile, tracking infusion and bleed cycles.",
@@ -766,12 +766,12 @@ export const DATA = {
       links: [],
       categories: ["Digital Production", "Pharma Campaigns"],
       subType: "digital",
-      year: 2018
+      year: 2022
     },
     {
       title: "Neurocrine Ingrezza Launch",
-      dates: "2018",
-      role: "Interactive Production Specialist",
+      dates: "2022",
+      role: "Senior Art Director, Digital Production",
       team: "Pixacore",
       image: "/Images/Thumbs/ingrezza_thumb.png",
       description: "HCP interactive iPad presentations (iVA) and email campaigns built for the brand launch of Ingrezza.",
@@ -790,12 +790,12 @@ export const DATA = {
       ],
       categories: ["Interactive & Web", "Pharma Campaigns", "Digital Production"],
       subType: "digital",
-      year: 2018
+      year: 2022
     },
     {
       title: "JBL Subway Kiosk (Motion)",
-      dates: "2018",
-      role: "Motion Designer / Production Artist",
+      dates: "1995 – 1997",
+      role: "Quality Control / Print Production Artist",
       team: "Medallion Associates",
       image: "/Images/Thumbs/jbl_thumb.png",
       description: "Subway kiosk motion graphics banner and out-of-home video banner featuring Aaron Judge.",
@@ -809,12 +809,12 @@ export const DATA = {
       ],
       categories: ["Print & Large Format"],
       subType: "print",
-      year: 2018
+      year: 1996
     },
     {
       title: "Ultragenx Exhibit & OOH",
-      dates: "2018",
-      role: "Large Format Print Production Artist",
+      dates: "2022",
+      role: "Senior Art Director, Digital Production",
       team: "Pixacore",
       image: "/Images/Thumbs/ultragenx_thumb.png",
       description: "OOH exhibit stand, backlit displays, and podium layouts for Ultragenx convention booth.",
@@ -833,12 +833,12 @@ export const DATA = {
       ],
       categories: ["Print & Large Format", "Pharma Campaigns"],
       subType: "print",
-      year: 2018
+      year: 2022
     },
     {
       title: "Votrient ASCO Panels",
-      dates: "2017",
-      role: "Large Format Print Production Artist",
+      dates: "2022",
+      role: "Senior Art Director, Digital Production",
       team: "Pixacore",
       image: "/Images/Thumbs/votrient_thumb.png",
       description: "Convention exhibition panels for Votrient STS ASCO conference presentation.",
@@ -852,13 +852,13 @@ export const DATA = {
       ],
       categories: ["Print & Large Format", "Pharma Campaigns"],
       subType: "print",
-      year: 2017
+      year: 2022
     },
     {
       title: "Novartis Tasigna Campaign",
-      dates: "2017",
-      role: "Production Artist",
-      team: "Regan Campbell Ward McCann",
+      dates: "2005 – 2008",
+      role: "Assistant Studio Manager / Print Production Artist",
+      team: "McCann Health (Regan, Campbell, Ward and McCann)",
       image: "/Images/Thumbs/tasigna_thumb.png",
       description: "Print newsletter production for 'Tasigna Tips' internal campaign, and clinical messaging guides.",
       technologies: ["Print Production", "Layout Design", "InDesign"],
@@ -876,13 +876,13 @@ export const DATA = {
       ],
       categories: ["Print & Large Format", "Pharma Campaigns"],
       subType: "print",
-      year: 2017
+      year: 2007
     },
     {
       title: "Novartis Afinitor Campaign",
-      dates: "2017",
-      role: "Production Artist",
-      team: "Regan Campbell Ward McCann",
+      dates: "2005 – 2008",
+      role: "Assistant Studio Manager / Print Production Artist",
+      team: "McCann Health (Regan, Campbell, Ward and McCann)",
       image: "/Images/Thumbs/afinitor_thumb.png",
       description: "Print production for the Afinitor October Newsletter and B2B clinical flashcards.",
       technologies: ["Print Production", "Layout Design", "InDesign"],
@@ -900,89 +900,96 @@ export const DATA = {
       ],
       categories: ["Print & Large Format", "Pharma Campaigns"],
       subType: "print",
-      year: 2017
-    },
-    {
-      title: "Verizon Wireless Campaign",
-      dates: "2007",
-      role: "Studio Manager / Print Production Artist",
-      team: "GlobalHue",
-      image: "/Images/Thumbs/pthumbs10.png",
-      technologies: ["Print Production", "Studio Management", "Photoshop"],
-      categories: ["Print & Large Format"],
-      subType: "print",
       year: 2007
     },
     {
+      title: "Verizon Wireless Campaign",
+      dates: "2008 – 2010",
+      role: "Studio Manager / Production Artist",
+      team: "Global Hue",
+      image: "/Images/Thumbs/pthumbs10.png",
+      description: "Managed print production workflows and created high-resolution print mechanicals for retail, OOH, and magazine ads.",
+      technologies: ["Print Production", "Studio Management", "Photoshop"],
+      categories: ["Print & Large Format"],
+      subType: "print",
+      year: 2009
+    },
+    {
       title: "Restasis Campaign",
-      dates: "2005",
-      role: "Studio Manager / Print Production Artist",
-      team: "Regan, Campbell, Ward and McCann",
+      dates: "2005 – 2008",
+      role: "Assistant Studio Manager / Print Production Artist",
+      team: "McCann Health (Regan, Campbell, Ward and McCann)",
       image: "/Images/Thumbs/pthumbs11.png",
+      description: "Production studio support and preflight routing for Restasis print ads, brochures, and sales kits.",
       technologies: ["Print Production", "Studio Management", "Photoshop"],
       categories: ["Print & Large Format", "Pharma Campaigns"],
       subType: "print",
-      year: 2005
+      year: 2006
     },
     {
       title: "Genentech",
-      dates: "2005",
-      role: "Studio Manager / Print Production Artist",
-      team: "Regan, Campbell, Ward and McCann",
+      dates: "2005 – 2008",
+      role: "Assistant Studio Manager / Print Production Artist",
+      team: "McCann Health (Regan, Campbell, Ward and McCann)",
       image: "/Images/Thumbs/pthumbs13.png",
+      description: "Oversaw pre-press quality control, layout alignment, and mechanical asset releases for Genentech product lines.",
       technologies: ["Print Production", "Studio Management", "Illustrator"],
       categories: ["Print & Large Format", "Pharma Campaigns"],
       subType: "print",
-      year: 2005
+      year: 2006
     },
     {
       title: "Nickelodeon",
-      dates: "1999",
+      dates: "1999 – 2003",
       role: "Print Production Artist",
       team: "The Sloan Group",
       image: "/Images/Thumbs/pthumbs14.png",
+      description: "Produced complex, print-ready mechanical layouts, mockups, and promotional materials for Nickelodeon branding campaigns.",
       technologies: ["Print Production", "Layout Design", "Illustrator"],
       categories: ["Print & Large Format"],
       subType: "print",
-      year: 1999
+      year: 2000
     },
     {
       title: "Dunkin' Donuts",
-      dates: "1995",
+      dates: "Jun 1995 – Sep 1997",
       role: "Quality Control / Print Production Artist",
       team: "Medallion Associates",
       image: "/Images/Thumbs/pthumbs16.png",
+      description: "Oversaw high-resolution output proofing and print quality control standards for Dunkin' Donuts regional promotional print assets.",
       technologies: ["Quality Control", "Print Production"],
       categories: ["Print & Large Format"],
       subType: "print",
-      year: 1995
+      year: 1996
     },
     {
       title: "Kinney Shoes Catalog",
-      dates: "1995",
+      dates: "Jun 1995 – Sep 1997",
       role: "Quality Control / Print Production Artist",
       team: "Medallion Associates",
       image: "/Images/Thumbs/pthumbs17.png",
+      description: "Managed print-ready output proofing, layout reviews, and final press routing specifications for the seasonal Kinney Shoes print catalog.",
       technologies: ["Quality Control", "Print Production"],
       categories: ["Print & Large Format"],
       subType: "print",
-      year: 1995
+      year: 1996
     },
     {
       title: "Kinney Shoes Campaign",
-      dates: "1995",
+      dates: "Jun 1995 – Sep 1997",
       role: "Quality Control / Print Production Artist",
       team: "Medallion Associates",
       image: "/Images/Thumbs/pthumbs18.png",
+      description: "Executed high-resolution print quality control, font kerning checks, and file release prep for retail in-store display campaigns.",
       technologies: ["Quality Control", "Print Production"],
       categories: ["Print & Large Format"],
       subType: "print",
-      year: 1995
+      year: 1996
     },
     {
       title: "Novartis Kesimpta Campaign",
       dates: "2022",
-      role: "Digital Production Specialist",
+      role: "Senior Art Director, Digital Production",
       team: "Pixacore",
       image: "/Images/Thumbs/kesimpta_thumb.png",
       description: "Digital email marketing campaign layouts for Kesimpta (Novartis), including fully responsive brand and patient communications templates.",
