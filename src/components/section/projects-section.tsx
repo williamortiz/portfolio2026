@@ -23,11 +23,14 @@ export default function ProjectsSection() {
 
   // Combine digital and print projects into a unified structure
   const allProjects = [
-    ...DATA.projects.map((p) => ({
-      ...p,
-      type: "digital" as const,
-      descriptionToShow: p.description,
-    })),
+    ...DATA.projects.map((p) => {
+      const proj = p as any;
+      return {
+        ...p,
+        type: "digital" as const,
+        descriptionToShow: `CLIENT: ${proj.team}\n\nROLE: ${proj.role}${proj.description ? `\n\n${proj.description}` : ""}`,
+      };
+    }),
     ...DATA.printProjects.map((p) => {
       const proj = p as any;
       return {

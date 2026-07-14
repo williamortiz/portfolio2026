@@ -401,9 +401,11 @@ export const DATA = {
       href: "https://www.iovance.com/",
       dates: "2022",
       active: true,
+      role: "Senior Art Director, Digital Production",
+      team: "Pixacore",
       description:
         "UI/UX Design and Art Direction for the website refresh of Iovance Pharmaceuticals. Created complete desktop and mobile wireframes and site maps.",
-      technologies: ["UI/UX Design", "Art Direction", "Figma", "Zeplin"],
+      technologies: ["UI/UX Design", "Art Direction", "Figma"],
       links: [
         {
           type: "Live Site",
@@ -427,6 +429,8 @@ export const DATA = {
       href: "https://www.bayer.com/en/pharma/pharmaceuticals/",
       dates: "2022",
       active: true,
+      role: "Senior Art Director, Digital Production",
+      team: "Pixacore",
       description:
         "UI/UX design and art direction for Bayer's primary pharmaceutical information website and patient safety dashboards.",
       technologies: ["UI/UX Design", "Art Direction", "Figma", "Sketch"],
@@ -453,6 +457,8 @@ export const DATA = {
       href: "https://www.blueprintmedinfo.com/",
       dates: "2022",
       active: true,
+      role: "Senior Art Director, Digital Production",
+      team: "Pixacore",
       description:
         "UI/UX Design and Art Direction for Blueprint's medical information search portal and clinical trials catalog.",
       technologies: ["UI/UX Design", "Art Direction", "Figma", "Adobe XD"],
@@ -479,6 +485,8 @@ export const DATA = {
       href: "https://www.bmsscience.com/pathways/",
       dates: "2022",
       active: true,
+      role: "Senior Art Director, Digital Production",
+      team: "Pixacore",
       description:
         "Digital production and assets creation for Bristol Myers Squibb scientific pathways including BCMA and CD19 mechanisms.",
       technologies: ["Digital Production", "Illustrator", "Photoshop"],
@@ -505,6 +513,8 @@ export const DATA = {
       href: "https://hcp.vitrakvi-us.com/",
       dates: "2022",
       active: true,
+      role: "Senior Art Director, Digital Production",
+      team: "Pixacore",
       description:
         "UI/UX design and art direction of responsive desktop and mobile portals for the Vitrakvi oncology program.",
       technologies: ["UI/UX Design", "Art Direction", "Figma", "Sketch"],
@@ -531,6 +541,8 @@ export const DATA = {
       href: "https://www.nashtippingpoint.com/",
       dates: "2022",
       active: true,
+      role: "Senior Art Director, Digital Production",
+      team: "Pixacore",
       description:
         "Digital asset production and support for the Intercept NASH disease state awareness campaign portal.",
       technologies: ["Digital Production", "Adobe Photoshop", "Zeplin"],
@@ -557,6 +569,8 @@ export const DATA = {
       href: "http://mizuopeck.com/",
       dates: "2020",
       active: true,
+      role: "Web Designer/Developer",
+      team: "One Shot Records Inc.",
       description:
         "UI/UX design, custom web development, and static cloud hosting setup for actress Mizuo Peck's online portfolio.",
       technologies: ["Web Design", "Development", "GCP Hosting", "HTML/CSS"],
@@ -578,6 +592,8 @@ export const DATA = {
       href: "https://rockfordregents.com/index.aspx",
       dates: "2015",
       active: true,
+      role: "Web Designer",
+      team: "PrestoSports",
       description:
         "Web design for Rockford Regents athletics site in partnership with Presto Sports.",
       technologies: ["Web Design", "Theme Layout", "Presto Sports"],
@@ -604,6 +620,8 @@ export const DATA = {
       href: "https://crandallchargers.ca/landing/index",
       dates: "2015",
       active: true,
+      role: "Web Designer",
+      team: "PrestoSports",
       description:
         "Athletics sports layout and user interface design for Crandall University Chargers portal.",
       technologies: ["Web Design", "Theme Layout", "Presto Sports"],
@@ -630,6 +648,8 @@ export const DATA = {
       href: "/projects/tro-patient-guide",
       dates: "2025",
       active: true,
+      role: "Senior Production Designer",
+      team: "Inizio Evoke",
       description:
         "Designed a comprehensive patient treatment guide for Trodelvy (Gilead Sciences). Created multi-page digital layouts detailing safety profiles, dosage tables, and support resources for patients and caregivers.",
       technologies: ["Print Production", "Layout Design", "InDesign", "Pharma Campaigns"],
@@ -651,6 +671,8 @@ export const DATA = {
       href: "/assets/samples/ATA/ATA_architecture_v_1.6.pdf",
       dates: "2020",
       active: true,
+      role: "Studio Manager",
+      team: "TBWA \\ Chiat \\ Day",
       description:
         "Technical systems architecture blueprint and design layout for enterprise application ecosystems.",
       technologies: ["Systems Architecture", "Visio", "Technical Design"],
