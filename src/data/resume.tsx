@@ -180,24 +180,36 @@ export const DATA = {
       href: "#",
       badges: [],
       location: "New York, NY",
-      title: "Studio Manager / Print Production Artist",
+      title: "Studio Manager / Production Artist",
       logoUrl: "/Images/logos/globalhue.jpg",
-      start: "2008",
-      end: "2008",
+      start: "May 2008",
+      end: "Dec 2010",
       description:
         "Managed the production studio and created premium high-resolution print mechanicals and assets for clients like Verizon and AT&T."
     },
     {
-      company: "Regan, Campbell, Ward and McCann",
+      company: "McCann Health (Regan, Campbell, Ward and McCann)",
       href: "#",
       badges: [],
       location: "New York, NY",
-      title: "Studio Manager / Print Production Artist",
+      title: "Assistant Studio Manager / Print Production Artist",
       logoUrl: "/Images/logos/rcwm.jpg",
-      start: "2005",
-      end: "2005",
+      start: "Nov 2005",
+      end: "Apr 2008",
       description:
         "Led print production efforts and quality assurance for prominent pharmaceutical accounts including Allergan, Novartis, and Genentech."
+    },
+    {
+      company: "Avon",
+      href: "#",
+      badges: ["Contract"],
+      location: "New York, NY",
+      title: "Contract Project Manager",
+      logoUrl: "",
+      start: "Aug 2003",
+      end: "Jul 2004",
+      description:
+        "Recorded, tracked, and coordinated the creation of comps and mechanical files for Global Skincare concepts. Served as key liaison between designers, copywriters, engineers, and outside vendors to ensure quality and deadline requirements."
     },
     {
       company: "The Sloan Group",
@@ -206,10 +218,22 @@ export const DATA = {
       location: "New York, NY",
       title: "Print Production Artist",
       logoUrl: "/Images/logos/sloan.jpg",
-      start: "1999",
-      end: "1999",
+      start: "Nov 1999",
+      end: "Feb 2003",
       description:
         "Produced complex print materials and advertisements for major entertainment and media clients including Nickelodeon."
+    },
+    {
+      company: "Grey Group",
+      href: "#",
+      badges: [],
+      location: "New York, NY",
+      title: "Print Production Artist",
+      logoUrl: "",
+      start: "Sep 1997",
+      end: "Nov 1999",
+      description:
+        "Executed high-quality typesetting and page layout in QuarkXPress, custom photo retouching in Adobe Photoshop, and logo design in Adobe Illustrator to support Art Directors with layout revisions."
     },
     {
       company: "Medallion Associates",
@@ -218,8 +242,8 @@ export const DATA = {
       location: "New York, NY",
       title: "Quality Control / Print Production Artist",
       logoUrl: "/Images/logos/medallion.jpg",
-      start: "1995",
-      end: "1995",
+      start: "Jun 1995",
+      end: "Sep 1997",
       description:
         "Oversaw print production quality control processes, ensuring alignment with brand standards for clients like Dunkin' Donuts and Kinney Shoes."
     }
