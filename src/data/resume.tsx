@@ -367,8 +367,10 @@ export const DATA = {
     {
       title: "One Shot Records Marketplace",
       href: "https://www.oneshotrecords.com/",
-      dates: "2025 - Present",
+      dates: "2012 - Present",
       active: true,
+      role: "Product Designer/Developer",
+      team: "One Shot Records Inc.",
       description:
         "Designed and developed a premium online marketplace for rare vinyl records, hip-hop memorabilia, posters, and collectibles featuring robust wantlists, catalogs, and offer workflows.",
       technologies: [
@@ -394,7 +396,7 @@ export const DATA = {
       video: "",
       categories: ["UI/UX Design", "Interactive & Web"],
       subType: "website",
-      year: 2025
+      year: 2012
     },
     {
       title: "Iovance Pharmaceuticals Refresh",
