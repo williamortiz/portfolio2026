@@ -205,7 +205,7 @@ export const DATA = {
       badges: ["Contract"],
       location: "New York, NY",
       title: "Contract Project Manager",
-      logoUrl: "",
+      logoUrl: "/Images/logos/avon.svg",
       start: "Aug 2003",
       end: "Jul 2004",
       description:
