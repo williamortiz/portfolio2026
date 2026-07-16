@@ -229,7 +229,7 @@ export const DATA = {
       badges: [],
       location: "New York, NY",
       title: "Print Production Artist",
-      logoUrl: "",
+      logoUrl: "/Images/logos/grey.svg",
       start: "Sep 1997",
       end: "Nov 1999",
       description:
