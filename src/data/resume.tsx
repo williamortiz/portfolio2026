@@ -97,7 +97,7 @@ export const DATA = {
       badges: ["Contract"],
       location: "Remote",
       title: "Senior Production Designer",
-      logoUrl: "",
+      logoUrl: "/Images/logos/inizioevoke.png",
       start: "Jul 2025",
       end: "Oct 2025",
       description:
@@ -109,7 +109,7 @@ export const DATA = {
       badges: ["Contract"],
       location: "Remote",
       title: "Senior Production Designer",
-      logoUrl: "",
+      logoUrl: "/Images/logos/tinywins.png",
       start: "Mar 2025",
       end: "May 2025",
       description:
@@ -121,7 +121,7 @@ export const DATA = {
       badges: ["Contract"],
       location: "Remote",
       title: "Digital Production Designer",
-      logoUrl: "",
+      logoUrl: "/Images/logos/bigtincan.png",
       start: "Jun 2024",
       end: "Nov 2024",
       description:
@@ -133,7 +133,7 @@ export const DATA = {
       badges: ["Contract"],
       location: "Remote",
       title: "Digital Designer / Senior Production Artist",
-      logoUrl: "",
+      logoUrl: "/Images/logos/gsk.svg",
       start: "Apr 2023",
       end: "Sep 2023",
       description:
