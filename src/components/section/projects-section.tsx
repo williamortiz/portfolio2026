@@ -23,18 +23,20 @@ export default function ProjectsSection() {
 
   // Combine digital and print projects into a unified structure
   const allProjects = [
-    ...DATA.projects.map((p) => {
+    ...DATA.projects.map((p, idx) => {
       const proj = p as any;
       return {
         ...p,
+        originalIndex: idx,
         type: "digital" as const,
         descriptionToShow: `CLIENT: ${proj.team}\n\nROLE: ${proj.role}${proj.description ? `\n\n${proj.description}` : ""}`,
       };
     }),
-    ...DATA.printProjects.map((p) => {
+    ...DATA.printProjects.map((p, idx) => {
       const proj = p as any;
       return {
         ...p,
+        originalIndex: idx + DATA.projects.length,
         type: "print" as const,
         descriptionToShow: `CLIENT: ${proj.team}\n\nROLE: ${proj.role}${proj.description ? `\n\n${proj.description}` : ""}`,
         href: proj.links?.[0]?.href || "#",
@@ -50,7 +52,7 @@ export default function ProjectsSection() {
     if (yearA !== yearB) {
       return yearB - yearA;
     }
-    return a.title.localeCompare(b.title);
+    return a.originalIndex - b.originalIndex;
   });
 
   // Filter projects by category
