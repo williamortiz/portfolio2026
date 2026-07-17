@@ -92,16 +92,52 @@ export const DATA = {
   },
   work: [
     {
-      company: "Ortiz Design and Production",
+      company: "Inizio Evoke",
       href: "#",
       badges: ["Contract"],
-      location: "New York, NY (Remote)",
-      title: "Senior Art Director & Senior Production Artist",
-      logoUrl: "/Images/logos/ortiz.jpg",
-      start: "Jan 2023",
-      end: "Present",
+      location: "Remote",
+      title: "Senior Production Designer",
+      logoUrl: "",
+      start: "Jul 2025",
+      end: "Oct 2025",
       description:
-        "• Executed precise edits across massive digital design systems in Figma and ADS for Inizio Evoke, directly eliminating production bottlenecks and maintaining strict brand standards.\n• Directed the digital production and migration of over 500 content pages from two disparate websites into unified templates for TinyWins.\n• Instituted a highly detailed tracking system to identify inconsistencies in copy, media, and design across complex medical devices and educational materials.\n• Managed digital production, asset optimization, and preflight quality control for interactive trade show kiosks at Bigtincan, ensuring complete visual fidelity across all screens.\n• Designed and edited print and digital sales assets for GSK, placing a strict focus on continuous content updates and rigorous quality control."
+        "• Executed precise, high-volume edits within complex digital design systems utilizing Figma, Sketch, and ADS (Evoke's proprietary system), directly eliminating production bottlenecks and maintaining strict brand standards.\n• Maintained continuous cross-functional collaboration with Art Directors, UX Designers, and Project Managers throughout the entire lifecycle of complex pharmaceutical web initiatives, ensuring design-to-development continuity and robust quality assurance.\n• Prepared, packaged, and handed off high-fidelity digital design assets and spec libraries to engineering teams, streamlining workflows and accelerating overall time-to-market."
+    },
+    {
+      company: "TinyWins",
+      href: "#",
+      badges: ["Contract"],
+      location: "Remote",
+      title: "Senior Production Designer",
+      logoUrl: "",
+      start: "Mar 2025",
+      end: "May 2025",
+      description:
+        "• Spearheaded the digital production and migration of 500+ content pages from two disparate web platforms into newly designed, unified, highly responsive Figma templates.\n• Oversaw meticulous quality control and content audits, identifying and correcting inconsistencies in copy, media, and design specifications across complex medical device and educational materials.\n• Championed brand consistency and absolute design integrity by collaborating closely with creative stakeholders and applying strict guidelines across all digital deliverables."
+    },
+    {
+      company: "Bigtincan",
+      href: "#",
+      badges: ["Contract"],
+      location: "Remote",
+      title: "Digital Production Designer",
+      logoUrl: "",
+      start: "Jun 2024",
+      end: "Nov 2024",
+      description:
+        "• Drove product innovation by designing and prototyping interactive trade show kiosks in Figma, focusing on high-touch UI/UX, intuitive user flows, and lead-generation optimization.\n• Engineered front-end kiosk solutions using React, utilizing GitHub for robust code integrity, seamless collaboration, and efficient version control.\n• Prepared and optimized digital assets for seamless cross-platform deployment, ensuring complete visual fidelity and peak performance across high-resolution screens."
+    },
+    {
+      company: "GSK",
+      href: "#",
+      badges: ["Contract"],
+      location: "Remote",
+      title: "Digital Designer / Senior Production Artist",
+      logoUrl: "",
+      start: "Apr 2023",
+      end: "Sep 2023",
+      description:
+        "• Directed the end-to-end development of diverse digital and print project deliverables, managing the creative production pipeline from initial briefs through final asset release.\n• Spearheaded the design and technical setup of essential business resources, including standardized high-impact PowerPoint templates, client email newsletters, and SharePoint portals.\n• Enhanced internal organizational engagement by designing and production-engineering visually compelling digital content for enterprise communication channels (Yammer/Viva)."
     },
     {
       company: "Pixacore",
