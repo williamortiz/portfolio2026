@@ -200,6 +200,18 @@ export const DATA = {
         "• Designed and launched up to 20 monthly collegiate websites, managing the complete process from initial ideation to final deployment on WordPress."
     },
     {
+      company: "Royal Caribbean Cruises Ltd.",
+      href: "#",
+      badges: ["Contract"],
+      location: "Miami, FL",
+      title: "Contract Integrated Project Manager",
+      logoUrl: "/Images/logos/royalcaribbean.svg",
+      start: "May 2014",
+      end: "Nov 2014",
+      description:
+        "• Managed and executed complex multi-track digital and print projects, proactively negotiating realistic deadlines and maintaining project scope to ensure seamless execution.\n• Fostered strong client relationships through consistent, transparent communication, providing regular updates on deliverables and project status.\n• Optimized project efficiency by utilizing Workfront (formerly AtTask) and structured tracking systems to monitor progress, document changes, and promptly address potential issues."
+    },
+    {
       company: "One Shot Records Inc.",
       href: "#",
       badges: [],
@@ -726,6 +738,29 @@ export const DATA = {
       categories: ["UI/UX Design", "Interactive & Web"],
       subType: "digital",
       year: 2020
+    },
+    {
+      title: "Royal Caribbean Projects",
+      href: "/projects/royalcaribbean",
+      dates: "2014",
+      active: true,
+      role: "Contract Integrated Project Manager",
+      team: "Royal Caribbean Cruises Ltd.",
+      description:
+        "Digital and print creative asset management and campaign coordination for Royal Caribbean marketing initiatives. (Placeholder)",
+      technologies: ["Project Management", "Workfront", "Creative Production", "Scope & Asset Control"],
+      links: [
+        {
+          type: "Wireframes",
+          href: "/projects/royalcaribbean",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/Images/logos/royalcaribbean.svg",
+      video: "",
+      categories: ["UI/UX Design", "Interactive & Web"],
+      subType: "digital",
+      year: 2014
     }
   ],
   motionGraphics: [

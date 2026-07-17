@@ -279,5 +279,17 @@ export const PROJECT_DETAILS: Record<string, ProjectDetail> = {
     images: [
       "/Images/intercept/home.png"
     ]
+  },
+  royalcaribbean: {
+    id: "royalcaribbean",
+    title: "Royal Caribbean Projects",
+    client: "Royal Caribbean Cruises Ltd.",
+    role: "Contract Integrated Project Manager",
+    team: "Royal Caribbean Cruises Ltd.",
+    year: "2014",
+    description: "Digital and print creative asset management and campaign coordination for Royal Caribbean marketing initiatives. (Placeholder)",
+    images: [
+      "/Images/logos/royalcaribbean.svg"
+    ]
   }
 };
