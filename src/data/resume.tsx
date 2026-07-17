@@ -10,9 +10,9 @@ export const DATA = {
   location: "New York, NY",
   locationLink: "https://www.google.com/maps/place/New+York,+NY/",
   description:
-    "New York-based UI/UX Designer and Front-End Developer with a passion for digital production and generative AI workflows.",
+    "New York-based Senior Production Designer with a strong background in digital & print production, UI/UX design, and front-end development, specializing in scalable design systems and generative AI workflows.",
   summary:
-    "I am an experienced senior professional with a diverse background in digital, print, and web development. With years of experience in the industry, I have honed my skills in designing, developing, and managing projects across various platforms. Alongside my professional work, I actively explore generative AI tools through conceptual and experimental projects. This includes prompt engineering and hands-on experimentation with tools such as Imagen 4, Gemini, Nano Banana, loraAi, and ComfyUI, allowing me to stay current with emerging technologies and evolving creative workflows.",
+    "I am an experienced Senior Production Designer and creative operations manager with a proven track record of directing high-volume digital and print production pipelines. I specialize in bridging the gap between design and development, managing complex design systems (Figma, Sketch, ADS), and overseeing meticulous preflight quality control. Alongside my production management experience, I actively experiment with generative AI tools (such as Imagen 4, Gemini, ComfyUI, and loraAi) to optimize creative workflows and drive efficiency in modern studio environments.",
   avatarUrl: "/Images/william_portrait_2.jpeg",
   skills: {
     human: [
