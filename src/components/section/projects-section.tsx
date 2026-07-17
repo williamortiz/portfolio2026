@@ -45,8 +45,13 @@ export default function ProjectsSection() {
     }),
   ];
 
-  // Sort projects: pure chronological descending (latest first)
+  // Sort projects: pin One Shot Records Marketplace to the top, then sort by year descending
   const sortedProjects = [...allProjects].sort((a: any, b: any) => {
+    const aIsOneShot = a.title === "One Shot Records Marketplace";
+    const bIsOneShot = b.title === "One Shot Records Marketplace";
+    if (aIsOneShot && !bIsOneShot) return -1;
+    if (!aIsOneShot && bIsOneShot) return 1;
+
     const yearA = a.year || 0;
     const yearB = b.year || 0;
     if (yearA !== yearB) {
