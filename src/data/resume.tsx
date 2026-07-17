@@ -531,34 +531,6 @@ export const DATA = {
       year: 2022
     },
     {
-      title: "BMS Pathways Portal",
-      href: "https://www.bmsscience.com/pathways/",
-      dates: "2022",
-      active: true,
-      role: "Senior Art Director, Digital Production",
-      team: "Pixacore",
-      description:
-        "Digital production and assets creation for Bristol Myers Squibb scientific pathways including BCMA and CD19 mechanisms.",
-      technologies: ["Digital Production", "Illustrator", "Photoshop"],
-      links: [
-        {
-          type: "Live Site",
-          href: "https://www.bmsscience.com/pathways/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Wireframes",
-          href: "/projects/bms",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
-      image: "/Images/Thumbs/thumbs4.png",
-      video: "",
-      categories: ["Digital Production", "Pharma Campaigns"],
-      subType: "digital",
-      year: 2022
-    },
-    {
       title: "Vitrakvi (Bayer) HCP Portal",
       href: "https://hcp.vitrakvi-us.com/",
       dates: "2022",
@@ -584,6 +556,34 @@ export const DATA = {
       video: "",
       categories: ["UI/UX Design", "Interactive & Web", "Pharma Campaigns"],
       subType: "website",
+      year: 2022
+    },
+    {
+      title: "BMS Pathways Portal",
+      href: "https://www.bmsscience.com/pathways/",
+      dates: "2022",
+      active: true,
+      role: "Senior Art Director, Digital Production",
+      team: "Pixacore",
+      description:
+        "Digital production and assets creation for Bristol Myers Squibb scientific pathways including BCMA and CD19 mechanisms.",
+      technologies: ["Digital Production", "Illustrator", "Photoshop"],
+      links: [
+        {
+          type: "Live Site",
+          href: "https://www.bmsscience.com/pathways/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Wireframes",
+          href: "/projects/bms",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/Images/Thumbs/thumbs4.png",
+      video: "",
+      categories: ["Digital Production", "Pharma Campaigns"],
+      subType: "digital",
       year: 2022
     },
     {
