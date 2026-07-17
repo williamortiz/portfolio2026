@@ -205,7 +205,7 @@ export const DATA = {
       badges: ["Contract"],
       location: "Miami, FL",
       title: "Contract Integrated Project Manager",
-      logoUrl: "/Images/logos/royalcaribbean.svg",
+      logoUrl: "/Images/logos/royalcaribbean.jpg",
       start: "May 2014",
       end: "Nov 2014",
       description:
@@ -747,7 +747,7 @@ export const DATA = {
       role: "Contract Integrated Project Manager",
       team: "Royal Caribbean Cruises Ltd.",
       description:
-        "Digital and print creative asset management and campaign coordination for Royal Caribbean marketing initiatives. (Placeholder)",
+        "Coordinated digital and print creative asset production for Royal Caribbean campaign initiatives, including email marketing layouts, onboard shore excursions promotions, and wearable WOWBand packaging designs.",
       technologies: ["Project Management", "Workfront", "Creative Production", "Scope & Asset Control"],
       links: [
         {
@@ -756,7 +756,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "/Images/logos/royalcaribbean.svg",
+      image: "/Images/logos/royalcaribbean.jpg",
       video: "",
       categories: ["UI/UX Design", "Interactive & Web"],
       subType: "digital",

@@ -287,9 +287,11 @@ export const PROJECT_DETAILS: Record<string, ProjectDetail> = {
     role: "Contract Integrated Project Manager",
     team: "Royal Caribbean Cruises Ltd.",
     year: "2014",
-    description: "Digital and print creative asset management and campaign coordination for Royal Caribbean marketing initiatives. (Placeholder)",
+    description: "Coordinated digital and print creative asset production for Royal Caribbean campaign initiatives, including email marketing layouts, onboard shore excursions promotions, and wearable WOWBand packaging designs.",
     images: [
-      "/Images/logos/royalcaribbean.svg"
+      "/Images/royalcaribbean/email_layout.jpg",
+      "/Images/royalcaribbean/excursion_banner.jpg",
+      "/Images/royalcaribbean/wowband_packaging.jpg"
     ]
   }
 };
