@@ -1,7 +1,6 @@
 "use client";
 
-/* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useState } from "react";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -13,14 +12,28 @@ import ArtGallerySection from "@/components/section/art-gallery-section";
 import ProjectsSection from "@/components/section/projects-section";
 import MotionGraphicsSection from "@/components/section/motion-graphics-section";
 import WorkSection from "@/components/section/work-section";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Download, Loader2 } from "lucide-react";
 import { Magnetic } from "@/components/magnetic";
 import { SplitText } from "@/components/split-text";
+import { generateResumePDF } from "@/lib/resume-generator";
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   const firstName = DATA.name.split(" ")[0];
+  const [isGenerating, setIsGenerating] = useState(false);
+
+  const handleDownload = async () => {
+    if (isGenerating) return;
+    try {
+      setIsGenerating(true);
+      await generateResumePDF();
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setIsGenerating(false);
+    }
+  };
 
   return (
     <main className="min-h-dvh flex flex-col gap-14 relative">
@@ -52,6 +65,30 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY * 1.5}
                 text={DATA.description}
               />
+              <BlurFade delay={BLUR_FADE_DELAY * 2}>
+                <div className="pt-2">
+                  <Magnetic range={60} strength={0.2}>
+                    <button
+                      type="button"
+                      onClick={handleDownload}
+                      disabled={isGenerating}
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary text-primary-foreground font-medium text-sm shadow-md hover:bg-primary/90 transition-colors cursor-pointer disabled:opacity-70"
+                    >
+                      {isGenerating ? (
+                        <>
+                          <Loader2 className="size-4 animate-spin" />
+                          <span>Generating Resume...</span>
+                        </>
+                      ) : (
+                        <>
+                          <Download className="size-4" />
+                          <span>Download Resume (PDF)</span>
+                        </>
+                      )}
+                    </button>
+                  </Magnetic>
+                </div>
+              </BlurFade>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2">
               <Magnetic range={120} strength={0.2}>
